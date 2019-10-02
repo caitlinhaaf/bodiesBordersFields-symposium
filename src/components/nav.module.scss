@@ -1,0 +1,23 @@
+.bar{
+    padding: .5em 5vw;
+    border-bottom: 1px solid #999;
+
+    h2{
+        margin-bottom: 0;
+    }
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+
+    > *{
+        display: block;
+        padding: .5rem 2rem;
+        color: inherit;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
