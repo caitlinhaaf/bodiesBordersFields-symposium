@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bodies, Borders, Fields`,
-    author: `Kyle Mathews`,
+    author: `Trinity Square Video`,
     description: `Convened by Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
     `,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/markdown`,
+        name: `markdown`,
       },
     },
     {
@@ -59,8 +59,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Bodies, Borders, Fields`,
+        short_name: `BodiesBordersFields`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -69,6 +69,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,

@@ -8,10 +8,19 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font: $hdrFont;
     margin-top: 0;
 }
+h1, h2{
+    font: $hdrFont;
+}
+h3, h4, h5, h6{
+    font: $subHdrFont;
+    margin-bottom: 0;
+}
 
+table p{
+    margin-bottom: 0;
+}
 a{
     box-shadow: none;
     &:hover{

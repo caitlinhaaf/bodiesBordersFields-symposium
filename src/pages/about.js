@@ -13,7 +13,19 @@ class AboutPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <article>
-            <h1>ABOUT</h1>
+            <h2>LOCATION</h2>
+            <p>
+            Toronto Media Arts Centre (TMAC) 
+            <br/>
+            32 Lisgar Street, Toronto, ON, M6J 0C9
+            </p>
+
+            <h2>DATE</h2>
+            <p>
+            22 - 24 November, 2019  
+            </p>
+
+            <h2>ABOUT</h2>
             <p>
             Convened by  Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that  re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
             </p>

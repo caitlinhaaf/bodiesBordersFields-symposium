@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+  open_authoring: true
+
+media_folder: static/img
+public_folder: /img
+publish_mode: editorial_workflow
+
+collections:
+  - name: "Speaker"
+    label: "Speaker"
+    folder: "content/markdown/speakers"
+    description: "Workshop date, description, and links to class content."
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { label: "Type Tag", name: "typeTag", widget: "hidden", default: "speaker" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "markdown" }
+  

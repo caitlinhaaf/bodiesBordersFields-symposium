@@ -13,6 +13,20 @@ class SpeakersPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <h1>SPEAKERS</h1>
+        <table>
+            <tr>
+                <td>
+                    <h4>Christina Battle</h4>
+                    <p>Tktktktkt. Tktktktktk Tktktktktk Tktktktktk Tktktktktk Tktktktktk  TktktktktkTktktktktk  Tktktktktk Tktktktktk Tktktktktk Tktktktktk  Tktktktktk</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Raymond Boisjoly</h4>
+                    <p>Tktktktkt. Tktktktktk Tktktktktk Tktktktktk Tktktktktk Tktktktktk  TktktktktkTktktktktk  Tktktktktk Tktktktktk Tktktktktk Tktktktktk  Tktktktktk</p>
+                </td>
+            </tr>
+        </table>
       </Layout>
     )
   }
