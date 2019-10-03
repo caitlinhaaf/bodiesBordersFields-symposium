@@ -17,6 +17,7 @@ collections:
      preview: false
     fields:
       - { label: "Type Tag", name: "typeTag", widget: "hidden", default: "speaker" }
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "First Name", name: "firstName", widget: "string" }
+      - { label: "Last Name", name: "lastName", widget: "string" }
       - { label: "Bio", name: "bio", widget: "markdown" }
   
