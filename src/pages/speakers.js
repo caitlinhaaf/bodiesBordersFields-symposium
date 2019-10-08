@@ -18,7 +18,7 @@ class SpeakersPage extends React.Component {
         <div className="twoCol">
 
           <div>
-            <div style={{"max-width":"200px", "margin": "0 auto 1rem auto"}}>
+            <div style={{"max-width":"200px", "margin-bottom": "1rem"}}>
               <Img fluid={data.headshot.childImageSharp.fluid} objectFit="cover" alt="Headshot placeholder."/>
             </div>
             <h4>Christina Battle</h4>
@@ -26,7 +26,7 @@ class SpeakersPage extends React.Component {
           </div>
 
           <div>
-            <div style={{"max-width":"200px", "margin": "0 auto 1rem auto"}}>
+            <div style={{"max-width":"200px", "margin-bottom": "1rem"}}>
               <Img fluid={data.headshot.childImageSharp.fluid} objectFit="cover" alt="Headshot placeholder."/>
             </div>
             <h4>Raymond Boisjoly</h4>
@@ -50,7 +50,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    headshot: file(relativePath: { eq: "headshotPlaceholder.jpg" }) {
+    headshot: file(relativePath: { eq: "headshotPlaceholder.png" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
