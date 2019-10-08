@@ -1,6 +1,7 @@
+@import '../styles/variables';
 .row{
     display: flex;
-    // justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 2em;
 
@@ -8,6 +9,15 @@
         width: 30%;
         margin-right: 3%;
         max-width: 150px;
-        // max-height: 100px;
+    }
+
+    @include sm {
+        flex-direction: column;
+        > *{
+            max-width: 250px;
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 3rem;
+        }
     }
 }

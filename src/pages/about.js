@@ -45,7 +45,7 @@ class AboutPage extends React.Component {
             </p>
         </article>
 
-        <h2>PRESENTED BY</h2>
+        <h2>Presented By</h2>
             <LogosRow />
       </Layout>
     )

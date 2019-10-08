@@ -32,11 +32,21 @@ const LogosRow = () => {
           }
         }
       }
+      tsvLogo: file(relativePath: { eq: "Trinity-Square-Video-logo.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 500) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
   return (
     <div className={componentStyles.row}>
+        <div>
+          <Img fluid={data.tsvLogo.childImageSharp.fluid} objectFit="cover" alt="Trinity Square Video logo."/>
+        </div>
         <div>
           <Img fluid={data.tmacLogo.childImageSharp.fluid} objectFit="cover" alt="Toronto Media Arts Centre logo."/>
         </div>

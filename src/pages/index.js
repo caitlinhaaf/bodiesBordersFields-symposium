@@ -21,7 +21,7 @@ class Homepage extends React.Component {
           22 - 24 November, 2019
         </h2>
         
-        <h4>Presented by</h4>
+        <h2>Presented By</h2>
         <LogosRow />
       </Layout>
     )

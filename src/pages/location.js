@@ -28,7 +28,7 @@ class LocationPage extends React.Component {
             </p>
         </div>
         
-        <h3>Entrance</h3>
+        <h2>Entrance</h2>
         <p>
         The main entrance can be a bit tricky to find your first time here. It is <span style={{"font-weight": "bold"}}>not directly off Lisgar</span>, but on the north side of the building facing the park. Our doors are east of the main condo entrance for 36 Lisgar.
         <br/><br/>
@@ -37,7 +37,7 @@ class LocationPage extends React.Component {
         Lost? Call or text (647) 689-6005 and someone will be happy to assist.
         </p>
 
-        <h3>Accessibility</h3>
+        <h2>Accessibility</h2>
         <a href="https://policies.tomediaarts.org/procedure-manual/policies/accessibility" target="_blank" rel="noopener noreferrer">
             View Accessibility Information
         </a>
