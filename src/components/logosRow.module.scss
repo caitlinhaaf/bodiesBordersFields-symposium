@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+
+    > *{
+        width: 30%;
+        margin-right: 3%;
+        max-width: 150px;
+        // max-height: 100px;
+    }
+}

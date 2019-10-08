@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LogosRow from "../components/logosRow"
 
 class AboutPage extends React.Component {
   render() {
@@ -13,25 +14,14 @@ class AboutPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <article>
-            <h2>LOCATION</h2>
-            <p>
-            Toronto Media Arts Centre (TMAC) 
-            <br/>
-            32 Lisgar Street, Toronto, ON, M6J 0C9
-            </p>
+            <h1>About</h1>
 
-            <h2>DATE</h2>
-            <p>
-            22 - 24 November, 2019  
-            </p>
-
-            <h2>ABOUT</h2>
             <p>
             Convened by  Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that  re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
             </p>
 
-            <p>
-            Christina Battle, Raymond Boisjoly, Deanna Bowen, Rizvana Bradley, Joshua Chambers-Letson, Keyon Gaskin, Che Gossett, Steffani Jemison, Aisha Sasha John, Jessica Lynne, Charmaine Nelson, M. NourbeSe Philip, Tina Post, Krys Verrall, Kandis Williams 
+            <p style={{"font-weight": "bold", "font-size": "1.25rem"}}>
+            CHRISTINA BATTLE / RAYMOND BOISJOLY / DEANNA BOWEN/RIZVANA BRADLEY / JOSHUA CHAMBERS-LETSON /KEYON GASKIN / CHE GOSSETT / STEFFANI JEMISON / AISHA SASHA JOHN / JESSICA LYNNE / CHARMAINE NELSON / M. NOURBESE PHILIP/ TINA POST / KRYS VERRALL / KANDIS WILLIAMS
             </p>
 
             <p>
@@ -54,6 +44,9 @@ class AboutPage extends React.Component {
             All roundtables, talks and panels are free and open to the public. Registration required for workshops
             </p>
         </article>
+
+        <h2>PRESENTED BY</h2>
+            <LogosRow />
       </Layout>
     )
   }

@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 import Nav from "./nav"
@@ -16,7 +15,7 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(24),
+            maxWidth: rhythm(30),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >        

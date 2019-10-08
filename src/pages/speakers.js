@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,20 +14,28 @@ class SpeakersPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <h1>SPEAKERS</h1>
-        <table>
-            <tr>
-                <td>
-                    <h4>Christina Battle</h4>
-                    <p>Tktktktkt. Tktktktktk Tktktktktk Tktktktktk Tktktktktk Tktktktktk  TktktktktkTktktktktk  Tktktktktk Tktktktktk Tktktktktk Tktktktktk  Tktktktktk</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h4>Raymond Boisjoly</h4>
-                    <p>Tktktktkt. Tktktktktk Tktktktktk Tktktktktk Tktktktktk Tktktktktk  TktktktktkTktktktktk  Tktktktktk Tktktktktk Tktktktktk Tktktktktk  Tktktktktk</p>
-                </td>
-            </tr>
-        </table>
+
+        <div className="twoCol">
+
+          <div>
+            <div style={{"max-width":"200px", "margin": "0 auto 1rem auto"}}>
+              <Img fluid={data.headshot.childImageSharp.fluid} objectFit="cover" alt="Headshot placeholder."/>
+            </div>
+            <h4>Christina Battle</h4>
+            <p>Tktktktkt. Tktktktktk Tktktktktk Tktktktktk Tktktktktk Tktktktktk  TktktktktkTktktktktk  Tktktktktk Tktktktktk Tktktktktk Tktktktktk  Tktktktktk</p>
+          </div>
+
+          <div>
+            <div style={{"max-width":"200px", "margin": "0 auto 1rem auto"}}>
+              <Img fluid={data.headshot.childImageSharp.fluid} objectFit="cover" alt="Headshot placeholder."/>
+            </div>
+            <h4>Raymond Boisjoly</h4>
+            <p>Tktktktkt. Tktktktktk Tktktktktk Tktktktktk Tktktktktk Tktktktktk  TktktktktkTktktktktk  Tktktktktk Tktktktktk Tktktktktk Tktktktktk  Tktktktktk</p>
+          </div>
+
+        </div>
+
+
       </Layout>
     )
   }
@@ -39,6 +48,13 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    headshot: file(relativePath: { eq: "headshotPlaceholder.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }

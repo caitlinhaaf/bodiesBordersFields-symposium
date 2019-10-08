@@ -1,22 +1,31 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Logotype from "./logotype"
+
 import componentStyles from './nav.module.scss'
 
-class Nav extends React.Component {
-  render() {
+const Nav = () => {
     return (
       <nav className={componentStyles.bar}>
-          <h2>BODIES, BORDERS, FIELDS</h2>
+          <div style={{"width": "40%", "min-width": "300px"}}>
+            <Logotype />
+          </div>
+
+          <div className={componentStyles.hamburger}>
+            <span>&#9776;</span>
+          </div>
+
           <div className={componentStyles.links}>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/speakers">Speakers</Link>
-            <Link to="/schedule">Schedule</Link>
+            <Link to="/" activeClassName={componentStyles.active}>Home</Link>
+            <Link to="/about" activeClassName={componentStyles.active}>About</Link>
+            <Link to="/location" activeClassName={componentStyles.active}>Location</Link>
+            <Link to="/speakers" activeClassName={componentStyles.active}>Speakers</Link>
+            <Link to="/schedule" activeClassName={componentStyles.active}>Schedule</Link>
+            <Link to="/archives" activeClassName={componentStyles.active}>Archives</Link>
           </div>
       </nav>
     )
-  }
 }
 
 export default Nav
