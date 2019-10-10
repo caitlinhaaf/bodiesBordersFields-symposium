@@ -13,7 +13,7 @@ class Homepage extends React.Component {
 
     return (
       <LandingLayout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Home" />
         {/* <h1>BODIES, BORDERS, FIELDS</h1> */}
         <Logotype />
 
