@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import LandingLayout from "../components/landingLayout"
 import SEO from "../components/seo"
-import LogosRow from "../components/logosRow"
+// import LogosRow from "../components/logosRow"
 import Logotype from "../components/logotype"
 
 class Homepage extends React.Component {
@@ -12,7 +12,7 @@ class Homepage extends React.Component {
     const siteTitle = data.site.siteMetadata.title
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <LandingLayout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         {/* <h1>BODIES, BORDERS, FIELDS</h1> */}
         <Logotype />
@@ -21,9 +21,9 @@ class Homepage extends React.Component {
           22 - 24 November, 2019
         </h2>
         
-        <h2>Presented By</h2>
-        <LogosRow />
-      </Layout>
+        {/* <h2>Presented By</h2> */}
+        {/* <LogosRow /> */}
+      </LandingLayout>
     )
   }
 }

@@ -16,22 +16,24 @@ class SchedulePage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <h1>SCHEDULE</h1>
+        <h1 style={{marginBottom: `0`}}>SCHEDULE</h1>
+        <h2 style={{marginBottom: `1rem`}} className="alt">22 - 24 November, 2019</h2>
 
         <div className={componentStyles.tabs}>
             <Tabs>
                 <TabList>
                     <Tab>
-                        <span className="pink">Friday</span>
+                        <span className="pink">Friday <span className={componentStyles.date}>22 Nov</span></span>
                     </Tab>
                     <Tab>
-                        <span className="blue">Saturday</span>
+                        <span className="blue">Saturday <span className={componentStyles.date}>23 Nov</span></span>
                     </Tab>
                     <Tab>
-                        <span className="green">Sunday</span>
+                        <span className="green">Sunday <span className={componentStyles.date}>24 Nov</span></span>
                     </Tab>
                 </TabList>
             
+                {/* FRIDAY */}
                 <TabPanel>
                     <table>
                         <tr>
@@ -70,6 +72,7 @@ class SchedulePage extends React.Component {
                     </table>
                 </TabPanel>
 
+                {/* SATURDAY */}
                 <TabPanel>
                 <table>
                         <tr>
@@ -97,6 +100,17 @@ class SchedulePage extends React.Component {
                         <tr>
                             <td colspan="2"  className="blue">
                                 <h4>Brunch</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2:00 Or Gallery (simultaneous)</td>
+                            <td  className="blue">
+                                <h4 className="alt">Workshop: Aesthetics of Black Performance and Sound</h4>
+                                <p>
+                                A workshop about performance and sound. Sign up required.
+                                <br/><br/>
+                                <span className={componentStyles.bold}>Speaker(s):</span> Steffani Jemison
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -133,6 +147,7 @@ class SchedulePage extends React.Component {
                     </table>
                 </TabPanel>
 
+                {/* SUNDAY */}
                 <TabPanel>
                 <table>
                         <tr>
