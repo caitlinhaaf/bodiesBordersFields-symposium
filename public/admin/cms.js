@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "dd3998a267b9bcc6d565";
+/******/ 	var hotCurrentHash = "79e4edb750ef394ddcdb";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -821,7 +821,7 @@ module.exports = _interopRequireDefault;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(module) {(function(){var enterModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.enterModule:undefined;enterModule&&enterModule(module);})();var __signature__=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default.signature:function(a){return a;};var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _netlifyIdentityWidget=_interopRequireDefault(__webpack_require__(/*! netlify-identity-widget */ "./node_modules/netlify-identity-widget/build/netlify-identity.js"));/* global __PATH_PREFIX__ CMS_PUBLIC_PATH */window.netlifyIdentity=_netlifyIdentityWidget["default"];var addLoginListener=function addLoginListener(){return _netlifyIdentityWidget["default"].on("login",function(){document.location.href=""+"/"+"admin"+"/";});};_netlifyIdentityWidget["default"].on("init",function(user){if(!user){addLoginListener();}else{_netlifyIdentityWidget["default"].on("logout",function(){addLoginListener();});}});_netlifyIdentityWidget["default"].init();;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyIdentityWidget,"_netlifyIdentityWidget","/www/bodiesBordersFields-symposium/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");reactHotLoader.register(addLoginListener,"addLoginListener","/www/bodiesBordersFields-symposium/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
+/* WEBPACK VAR INJECTION */(function(module) {(function(){var enterModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.enterModule:undefined;enterModule&&enterModule(module);})();var __signature__=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default.signature:function(a){return a;};var _interopRequireDefault=__webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");var _netlifyIdentityWidget=_interopRequireDefault(__webpack_require__(/*! netlify-identity-widget */ "./node_modules/netlify-identity-widget/build/netlify-identity.js"));/* global __PATH_PREFIX__ CMS_PUBLIC_PATH */window.netlifyIdentity=_netlifyIdentityWidget["default"];var addLoginListener=function addLoginListener(){return _netlifyIdentityWidget["default"].on("login",function(){document.location.href=""+"/"+"admin"+"/";});};_netlifyIdentityWidget["default"].on("init",function(user){if(!user){addLoginListener();}else{_netlifyIdentityWidget["default"].on("logout",function(){addLoginListener();});}});_netlifyIdentityWidget["default"].init();;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyIdentityWidget,"_netlifyIdentityWidget","/www/bodiesBordersFields-symposium/blog/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");reactHotLoader.register(addLoginListener,"addLoginListener","/www/bodiesBordersFields-symposium/blog/node_modules/gatsby-plugin-netlify-cms/cms-identity.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
@@ -838,7 +838,7 @@ module.exports = _interopRequireDefault;
  * Load Netlify CMS automatically if `window.CMS_MANUAL_INIT` is set.
  */if(!window.CMS_MANUAL_INIT){_netlifyCmsApp["default"].init();}else{console.log("`window.CMS_MANUAL_INIT` flag set, skipping automatic initialization.'");}/**
  * The stylesheet output from the modules at `modulePath` will be at `cms.css`.
- */_netlifyCmsApp["default"].registerPreviewStyle("cms.css");;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyCmsApp,"_netlifyCmsApp","/www/bodiesBordersFields-symposium/node_modules/gatsby-plugin-netlify-cms/cms.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
+ */_netlifyCmsApp["default"].registerPreviewStyle("cms.css");;(function(){var reactHotLoader=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default:undefined;if(!reactHotLoader){return;}reactHotLoader.register(_netlifyCmsApp,"_netlifyCmsApp","/www/bodiesBordersFields-symposium/blog/node_modules/gatsby-plugin-netlify-cms/cms.js");})();;(function(){var leaveModule=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.leaveModule:undefined;leaveModule&&leaveModule(module);})();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
@@ -1891,7 +1891,8 @@ module.exports = ReactPropTypesSecret;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.10.1
+/* 🔥 this is hot-loader/react-dom 4.8+ 🔥 */
+/** @license React v16.10.2
  * react-dom.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -2783,7 +2784,7 @@ function getListener(inst, registrationName) {
  * @internal
  */
 
-function extractPluginEvents(topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
+function extractPluginEvents(topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
   var events = null;
 
   for (var i = 0; i < plugins.length; i++) {
@@ -2791,7 +2792,7 @@ function extractPluginEvents(topLevelType, eventSystemFlags, targetInst, nativeE
     var possiblePlugin = plugins[i];
 
     if (possiblePlugin) {
-      var extractedEvents = possiblePlugin.extractEvents(topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget);
+      var extractedEvents = possiblePlugin.extractEvents(topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags);
 
       if (extractedEvents) {
         events = accumulateInto(events, extractedEvents);
@@ -2802,8 +2803,8 @@ function extractPluginEvents(topLevelType, eventSystemFlags, targetInst, nativeE
   return events;
 }
 
-function runExtractedPluginEventsInBatch(topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
-  var events = extractPluginEvents(topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget);
+function runExtractedPluginEventsInBatch(topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
+  var events = extractPluginEvents(topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags);
   runEventsInBatch(events);
 }
 
@@ -7495,7 +7496,7 @@ var SimpleEventPlugin = {
     var config = topLevelEventsToDispatchConfig[topLevelType];
     return config !== undefined ? config.eventPriority : ContinuousEvent;
   },
-  extractEvents: function (topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
+  extractEvents: function (topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
     var dispatchConfig = topLevelEventsToDispatchConfig[topLevelType];
 
     if (!dispatchConfig) {
@@ -7738,7 +7739,7 @@ function handleTopLevel(bookKeeping) {
     var eventTarget = getEventTarget(bookKeeping.nativeEvent);
     var topLevelType = bookKeeping.topLevelType;
     var nativeEvent = bookKeeping.nativeEvent;
-    runExtractedPluginEventsInBatch(topLevelType, bookKeeping.eventSystemFlags, targetInst, nativeEvent, eventTarget);
+    runExtractedPluginEventsInBatch(topLevelType, targetInst, nativeEvent, eventTarget, bookKeeping.eventSystemFlags);
   }
 } // TODO: can we stop exporting these?
 
@@ -12533,7 +12534,7 @@ function extractBeforeInputEvent(topLevelType, targetInst, nativeEvent, nativeEv
 
 var BeforeInputEventPlugin = {
   eventTypes: eventTypes$1,
-  extractEvents: function (topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
+  extractEvents: function (topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
     var composition = extractCompositionEvent(topLevelType, targetInst, nativeEvent, nativeEventTarget);
     var beforeInput = extractBeforeInputEvent(topLevelType, targetInst, nativeEvent, nativeEventTarget);
 
@@ -12793,7 +12794,7 @@ function handleControlledInputBlur(node) {
 var ChangeEventPlugin = {
   eventTypes: eventTypes$2,
   _isInputEventSupported: isInputEventSupported,
-  extractEvents: function (topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
+  extractEvents: function (topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
     var targetNode = targetInst ? getNodeFromInstance$1(targetInst) : window;
     var getTargetInstFunc, handleEventFunc;
 
@@ -12869,7 +12870,7 @@ var EnterLeaveEventPlugin = {
    * browser from outside will not fire a `mouseout` event. In this case, we use
    * the `mouseover` top-level event.
    */
-  extractEvents: function (topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
+  extractEvents: function (topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
     var isOverEvent = topLevelType === TOP_MOUSE_OVER || topLevelType === TOP_POINTER_OVER;
     var isOutEvent = topLevelType === TOP_MOUSE_OUT || topLevelType === TOP_POINTER_OUT;
 
@@ -13105,7 +13106,7 @@ function constructSelectEvent(nativeEvent, nativeEventTarget) {
 
 var SelectEventPlugin = {
   eventTypes: eventTypes$4,
-  extractEvents: function (topLevelType, eventSystemFlags, targetInst, nativeEvent, nativeEventTarget) {
+  extractEvents: function (topLevelType, targetInst, nativeEvent, nativeEventTarget, eventSystemFlags) {
     var doc = getEventTargetDocument(nativeEventTarget); // Track whether all listeners exists for this plugin. If none exist, we do
     // not extract events. See #3639.
 
@@ -16831,8 +16832,7 @@ function ChildReconciler(shouldTrackSideEffects) {
   }
 
   function updateElement(returnFiber, current$$1, element, expirationTime) {
-    if (current$$1 !== null && (current$$1.elementType === element.type || ( // Keep this check inline so it only runs on the false path:
-    isCompatibleFamilyForHotReloading(current$$1, element)))) {
+    if (current$$1 !== null && (current$$1.elementType === element.type || (hotCompareElements(current$$1.elementType, element.type, hotUpdateChild(current$$1), current$$1.type)))) {
       // Move based on index
       var existing = useFiber(current$$1, element.props, expirationTime);
       existing.ref = coerceRef(returnFiber, current$$1, element);
@@ -17438,8 +17438,7 @@ function ChildReconciler(shouldTrackSideEffects) {
       // TODO: If key === null and child.key === null, then this only applies to
       // the first item in the list.
       if (child.key === key) {
-        if (child.tag === Fragment ? element.type === REACT_FRAGMENT_TYPE : child.elementType === element.type || ( // Keep this check inline so it only runs on the false path:
-        isCompatibleFamilyForHotReloading(child, element))) {
+        if (child.tag === Fragment ? element.type === REACT_FRAGMENT_TYPE : hotCompareElements(child.elementType, element.type, hotUpdateChild(child), child.type)) {
           deleteRemainingChildren(returnFiber, child.sibling);
           var existing = useFiber(child, element.type === REACT_FRAGMENT_TYPE ? element.props.children : element.props, expirationTime);
           existing.ref = coerceRef(returnFiber, child, element);
@@ -28363,7 +28362,7 @@ function createHostRootFiber(tag) {
   return createFiber(HostRoot, null, null, mode);
 }
 function createFiberFromTypeAndProps(type, // React$ElementType
-key, pendingProps, owner, mode, expirationTime) {
+key, pendingProps, owner, mode, expirationTime) {type = hotResolveType(type);
   var fiber;
   var fiberTag = IndeterminateComponent; // The resolved type is set if we know what the final type will be. I.e. it's not lazy.
 
@@ -29145,7 +29144,7 @@ implementation) {
 
 // TODO: this is special because it gets imported during build.
 
-var ReactVersion = '16.10.1';
+var ReactVersion = '16.10.2';
 
 // TODO: This type is shared between the reconciler and ReactDOM, but will
 // eventually be lifted out to the renderer.
@@ -29590,7 +29589,56 @@ function createPortal$$1(children, container) {
   return createPortal$1(children, container, null, key);
 }
 
+
+var hotUpdateChild = function (child) {
+  return function (newType) {
+    child.type = newType;
+    if (child.alternate) {
+      child.alternate.type = newType;
+    }
+  }
+};
+var hotResolveType = function (type) {
+  return type;
+};
+var hotCompareElements = function (oldType, newType) {
+  return oldType === newType
+};
+var hotCleanupHooks = function () {
+  if (typeof resetHooks !== 'undefined') {
+     resetHooks();
+  }
+}
 var ReactDOM = {
+  evalInReactContext: function (injection) {
+    return eval(injection);
+  },
+  hotCleanup: hotCleanupHooks,
+  hotRenderWithHooks: function (current, render) {       
+    hotCleanupHooks();
+    
+    if (typeof nextCurrentHook !== 'undefined' && typeof ReactCurrentDispatcher$1 !== 'undefined') {    
+      nextCurrentHook = current !== null ? current.memoizedState : null;
+      if(typeof firstCurrentHook !== 'undefined') {
+        firstCurrentHook = nextCurrentHook;
+      }
+      
+      ReactCurrentDispatcher$1.current = nextCurrentHook === null ? HooksDispatcherOnMountInDEV : HooksDispatcherOnUpdateInDEV;
+    }
+    
+    var rendered = render();
+    
+    hotCleanupHooks();
+    
+    return rendered;
+  },
+  setHotElementComparator: function (newComparator) {
+    hotCompareElements = newComparator
+  },
+  setHotTypeResolver: function (newResolver) {
+    hotResolveType = newResolver;
+  },
+
   createPortal: createPortal$$1,
   findDOMNode: function (componentOrElement) {
     {
@@ -29818,7 +29866,8 @@ module.exports = reactDom;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/node_modules/react-dom/cjs/react-dom.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/node_modules/react-dom/cjs/react-dom.development.js"); } }(); 
+/* 🔥 this is hot-loader/react-dom 4.8+ 🔥 */
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/cjs/react-dom.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/cjs/react-dom.development.js"); } }(); 
 
 /***/ }),
 
@@ -29864,7 +29913,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "./node_modules/react-dom/cjs/react-dom.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/node_modules/react-dom/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/node_modules/react-dom/index.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/index.js"); } }(); 
 
 /***/ }),
 
@@ -29876,7 +29925,7 @@ if (false) {} else {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v0.16.1
+/** @license React v0.16.2
  * scheduler-tracing.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -30306,7 +30355,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js"); } }(); 
 
 /***/ }),
 
@@ -30318,7 +30367,7 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v0.16.1
+/** @license React v0.16.2
  * scheduler.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -31341,7 +31390,7 @@ exports.unstable_Profiling = unstable_Profiling;
   })();
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js"); } }(); 
 
 /***/ }),
 
@@ -31359,7 +31408,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/react-dom/node_modules/scheduler/cjs/scheduler.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/index.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/index.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/index.js"); } }(); 
 
 /***/ }),
 
@@ -31377,7 +31426,7 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/react-dom/node_modules/scheduler/cjs/scheduler-tracing.development.js");
 }
 
- void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/tracing.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/node_modules/react-dom/node_modules/scheduler/tracing.js"); } }(); 
+ void function register() { /* react-hot-loader/webpack */ var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined; if (!reactHotLoader) { return; } /* eslint-disable camelcase, no-undef */ var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : exports; /* eslint-enable camelcase, no-undef */ if (!webpackExports) { return; } if (typeof webpackExports === 'function') { reactHotLoader.register(webpackExports, 'module.exports', "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/tracing.js"); return; } /* eslint-disable no-restricted-syntax */ for (var key in webpackExports) { /* eslint-enable no-restricted-syntax */ if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) { continue; } var namedExport = void 0; try { namedExport = webpackExports[key]; } catch (err) { continue; } reactHotLoader.register(namedExport, key, "/www/bodiesBordersFields-symposium/blog/node_modules/react-dom/node_modules/scheduler/tracing.js"); } }(); 
 
 /***/ }),
 
@@ -31389,7 +31438,7 @@ if (false) {} else {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.10.1
+/** @license React v16.10.2
  * react.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -31411,7 +31460,7 @@ var checkPropTypes = __webpack_require__(/*! prop-types/checkPropTypes */ "./nod
 
 // TODO: this is special because it gets imported during build.
 
-var ReactVersion = '16.10.1';
+var ReactVersion = '16.10.2';
 
 // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.
@@ -33782,8 +33831,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /www/bodiesBordersFields-symposium/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
-module.exports = __webpack_require__(/*! /www/bodiesBordersFields-symposium/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
+__webpack_require__(/*! /www/bodiesBordersFields-symposium/blog/node_modules/gatsby-plugin-netlify-cms/cms.js */"./node_modules/gatsby-plugin-netlify-cms/cms.js");
+module.exports = __webpack_require__(/*! /www/bodiesBordersFields-symposium/blog/node_modules/gatsby-plugin-netlify-cms/cms-identity.js */"./node_modules/gatsby-plugin-netlify-cms/cms-identity.js");
 
 
 /***/ })
