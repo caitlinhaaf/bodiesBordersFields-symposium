@@ -1,14 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Bodies, Borders, Fields`,
+    author: `Trinity Square Video`,
+    description: `Convened by Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
+    `,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `caitlinhaaf`,
     },
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -57,8 +66,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Bodies, Borders, Fields`,
+        short_name: `BodiesBordersFields`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -67,8 +76,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

@@ -1,0 +1,26 @@
+@import '../styles/variables';
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+
+    > *{
+        width: 22%;
+        margin-right: 2%;
+        max-width: 200px;
+    }
+    > *:last-child{
+        margin-right: 0;
+    }
+
+    @include sm {
+        flex-direction: column;
+        > *{
+            max-width: 250px;
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 3rem;
+        }
+    }
+}
