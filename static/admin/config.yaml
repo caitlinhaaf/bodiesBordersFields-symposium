@@ -8,10 +8,10 @@ public_folder: /img
 publish_mode: editorial_workflow
 
 collections:
-  - name: "Speaker"
-    label: "Speaker"
-    folder: "content/markdown/speakers"
-    description: "Workshop date, description, and links to class content."
+  - name: "Contributor"
+    label: "Contributor"
+    folder: "content/markdown/contributors"
+    description: "Add details for speakers, moderators, workshop faciliators etc."
     create: true
     editor:
      preview: false
@@ -19,5 +19,6 @@ collections:
       - { label: "Type Tag", name: "typeTag", widget: "hidden", default: "speaker" }
       - { label: "First Name", name: "firstName", widget: "string" }
       - { label: "Last Name", name: "lastName", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
       - { label: "Bio", name: "bio", widget: "markdown" }
   
