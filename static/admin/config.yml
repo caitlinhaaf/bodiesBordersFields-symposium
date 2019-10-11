@@ -6,15 +6,16 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: "contributor"
+    label: "Contributor"
+    folder: "content/markdown/contributors"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
      preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tag Type", name: "tagType", widget: "hidden", default: "contributor" }
+      - { label: "First Name", name: "firstName", widget: "string" }
+      - { label: "Last Name", name: "lastName", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Headshot", name: "headshot", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown" }
