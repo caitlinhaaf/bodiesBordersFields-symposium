@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "contributor"
+    label: "Contributor"
+    folder: "content/markdown/contributors"
+    identifier_field: lastName
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { label: "Tag Type", name: "tagType", widget: "hidden", default: "contributor" }
+      - { label: "First Name", name: "firstName", widget: "string" }
+      - { label: "Last Name", name: "lastName", widget: "string" }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Headshot", name: "headshot", widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown" }

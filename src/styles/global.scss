@@ -72,9 +72,10 @@ footer{
 
 .twoCol{
     display: flex;
+    flex-wrap: wrap;
 
     > *{
-        width: 50%;
+        width: 45%;
         margin-right: 5%;
     }
     > :last-child{

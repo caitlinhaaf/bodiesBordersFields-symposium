@@ -16,7 +16,7 @@ class SchedulePage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <h1 style={{marginBottom: `0`}}>SCHEDULE</h1>
+        <h1 style={{marginBottom: `0`}}>Schedule</h1>
         <h2 style={{marginBottom: `1rem`}} className="alt">22 - 24 November, 2019</h2>
 
         <div className={componentStyles.tabs}>
