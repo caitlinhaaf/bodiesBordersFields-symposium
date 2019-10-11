@@ -29,10 +29,10 @@ const Nav = () => {
             <div className={componentStyles.closeBtn} onClick={hideLinks}>X Close</div>
             <Link to="/" activeClassName={componentStyles.active}>Home</Link>
             <Link to="/about" activeClassName={componentStyles.active}>About</Link>
-            <Link to="/location" activeClassName={componentStyles.active}>Location</Link>
+            <Link to="/venues" activeClassName={componentStyles.active}>Venues</Link>
             <Link to="/contributors" activeClassName={componentStyles.active}>Contributors</Link>
             <Link to="/schedule" activeClassName={componentStyles.active}>Schedule</Link>
-            <Link to="/archives" activeClassName={componentStyles.active}>Archives</Link>
+            <Link to="/resources" activeClassName={componentStyles.active}>Resources</Link>
           </div>
       </nav>
     )

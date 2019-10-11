@@ -10,8 +10,7 @@ class LandingLayout extends React.Component {
       <>
         <div
           style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
+            margin: `2rem auto`,
             maxWidth: rhythm(30),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
@@ -27,7 +26,7 @@ class LandingLayout extends React.Component {
               textDecoration: `none`,
               padding: `1rem 2rem`
             }}>
-            <p style={{fontSize: `1.5rem`, textAlign: `center`}}>ENTER <br/> &#x25BC;</p>
+            <p style={{fontSize: `1.5rem`, textAlign: `center`, marginBottom: `0rem`}}>ENTER <br/> &#x25BC;</p>
           </Link>
 
           <footer>

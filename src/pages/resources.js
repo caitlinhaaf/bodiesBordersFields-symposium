@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class ArchivesPage extends React.Component {
+class ResourcesPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -12,14 +12,14 @@ class ArchivesPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <h1>Archives</h1>
+        <h1>Resources</h1>
         
       </Layout>
     )
   }
 }
 
-export default ArchivesPage
+export default ResourcesPage
 
 export const pageQuery = graphql`
   query {
