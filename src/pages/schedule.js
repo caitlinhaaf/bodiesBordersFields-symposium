@@ -108,8 +108,7 @@ class SchedulePage extends React.Component {
                             <td  className="blue">
                                 <h4 className="alt">Visiting Speakers Panel: France as a Black Space</h4>
                                 <p>
-                                <a href="http://www.orgallery.org/visiting-speakers-panel-france-as-a-black-space" target="_blank" rel="noopener noreferrer">Presented by the Or Gallery</a>
-                                A workshop about performance and sound. Sign up required.
+                                <a href="http://www.orgallery.org/visiting-speakers-panel-france-as-a-black-space" target="_blank" rel="noopener noreferrer">Presented by the Or Gallery.</a>
                                 </p>
                             </td>
                         </tr>
