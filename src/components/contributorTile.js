@@ -6,7 +6,6 @@ const ContributorTile = ({firstName, lastName, role, bio, headshot, ...props}) =
     return (
         <div>
             <div style={{"max-width":"200px", "margin-bottom": "1rem"}}>
-            {/* <Img fluid={data.headshot.childImageSharp.fluid} objectFit="cover" alt="Headshot placeholder."/> */}
             <img src={headshot} alt={`${firstName} ${lastName} headshot.`}/>
 
             </div>
