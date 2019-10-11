@@ -9,6 +9,7 @@ collections:
   - name: "contributor"
     label: "Contributor"
     folder: "content/markdown/contributors"
+    identifier_field: lastName
     create: true
     editor:
      preview: false
