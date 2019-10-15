@@ -33,3 +33,10 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Resource Files", 
+          name: "resourceFiles", 
+          widget: "list", 
+          fields: [
+            { label: Name, name: name, required: true, widget: string },
+            { label: File, name: file, required: true, widget: file},
+          ]}
