@@ -1,8 +1,13 @@
 ---
 tagType: blogPost
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: '2015-05-01T22:12:03.284Z'
+description: Hello World
+resourceFiles:
+  - file: /img/testfile.pdf
+    name: Testing file one
+  - file: /img/testfile.pdf
+    name: Testing file two
 ---
 
 This is my first post on my new fake blog! How exciting!
