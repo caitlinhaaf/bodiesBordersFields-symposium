@@ -48,7 +48,11 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___lastName], order: ASC }) {
+    allMarkdownRemark(
+      filter: {frontmatter: {tagType: {eq: "contributor"}}},
+      sort: { fields: [frontmatter___lastName], 
+      order: ASC 
+      }) {
       edges {
         node {
           html

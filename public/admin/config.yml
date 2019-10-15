@@ -20,3 +20,16 @@ collections:
       - { label: "Role", name: "role", widget: "string" }
       - { label: "Headshot", name: "headshot", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Tag Type", name: "tagType", widget: "hidden", default: "blogPost" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

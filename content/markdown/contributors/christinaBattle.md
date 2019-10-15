@@ -1,4 +1,5 @@
 ---
+tagType: contributor
 firstName: Christina
 lastName: Battle
 role: Speaker
