@@ -21,11 +21,15 @@ class ResourcesPage extends React.Component {
             <article key={node.fields.slug}>
               <header>
                 <h3
+                  className="alt"
                   style={{
-                    marginBottom: `1rem`,
+                    marginBottom: `.5rem`,
                   }}
                 >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <Link style={{ 
+                    fontSize: `1.75rem`, 
+                    boxShadow: `none`,
+                    }} to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>

@@ -11,23 +11,31 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 0;
 }
 
-h1, h2{
+h1, h2,
+h1 *, h2 *{
     font: $hdrFont1;
     &.alt{
         font: $hdrFont2;
+        * {
+            font: $hdrFont2;  
+        }
     }
 }
-h1{
+h1, h1 *{
     font-size: 3rem;
 }
 h2{
     margin-bottom: .5rem;
 }
-h3, h4, h5, h6{
+h3, h4, h5, h6,
+h3 *, h4 *, h5 *, h6 *{
     font: $subHdrFont1;
     margin-bottom: 0;
     &.alt{
         font: $subHdrFont2;
+        * {
+            font: $subHdrFont2; 
+        }
     }
 }
 
@@ -48,11 +56,20 @@ table p{
     margin-bottom: 0;
 }
 
+ul, ol {
+    margin-left: 1.5rem;
+}
+.noListStyle{
+    list-style: none;
+    margin-left: 0;
+}
+
 a{
     box-sizing: border-box;
     border: 2px solid rgba(255, 255, 255, 0);
     box-shadow: none;
     text-decoration: underline;
+    color: $blue;
     &:hover{
         color: $green;
     }

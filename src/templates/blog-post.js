@@ -38,6 +38,21 @@ class BlogPostTemplate extends React.Component {
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
+
+          <h2>Resources</h2>
+          <ul className="noListStyle">
+          {
+            post.frontmatter.resourceFiles.map((resource, i) => (
+              // <li className={componentStyles.link}>
+              <li>
+                <a key={i} target="_blank" rel="noopener noreferrer" href={resource.file}>
+                  {resource.name}
+                </a>
+              </li>
+            ))
+          }
+          </ul>
+
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -94,6 +109,10 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        resourceFiles{
+          name
+          file
+        }
       }
     }
   }

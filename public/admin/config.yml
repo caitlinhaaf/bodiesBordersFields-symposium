@@ -20,6 +20,19 @@ collections:
       - { label: "Role", name: "role", widget: "string" }
       - { label: "Headshot", name: "headshot", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "venue"
+    label: "Venue"
+    folder: "content/markdown/venues"
+    identifier_field: name
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { label: "Tag Type", name: "tagType", widget: "hidden", default: "venue" }
+      - { label: "Event Title", name: "eventTitle", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Logo", name: "logo", widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "blog"
     label: "Blog"
     folder: "content/markdown/blog"
