@@ -1,6 +1,7 @@
 ---
 tagType: venue
 eventTitle: Symposium 22-24 Nov 2019
+eventDate: 2019-11-22T18:32:09.071Z
 name: Toronto Media Arts Centre
 logo: /img/tmac_logo.png
 ---
