@@ -22,7 +22,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "blog"
     label: "Blog"
-    folder: "content/blog"
+    folder: "content/markdown/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
