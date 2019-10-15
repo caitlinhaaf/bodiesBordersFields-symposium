@@ -13,7 +13,7 @@ class VenuesPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Venues" />
         <h1>Venues</h1>
         
         {

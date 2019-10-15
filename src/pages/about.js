@@ -12,7 +12,7 @@ class AboutPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="About" />
         <article>
             <h1>About</h1>
 

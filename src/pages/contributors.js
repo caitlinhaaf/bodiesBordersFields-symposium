@@ -13,7 +13,7 @@ class ContributorsPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Contributors" />
         <h1>Contributors</h1>
 
         <div className="twoCol">
