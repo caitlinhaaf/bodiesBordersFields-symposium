@@ -109,3 +109,8 @@ footer{
         }
     }
 }
+
+.noMargin,
+.noMargin > *{
+    margin-bottom: 0.5rem;
+}

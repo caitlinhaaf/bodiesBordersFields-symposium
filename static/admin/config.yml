@@ -30,6 +30,7 @@ collections:
     fields:
       - { label: "Tag Type", name: "tagType", widget: "hidden", default: "venue" }
       - { label: "Event Title", name: "eventTitle", widget: "string" }
+      - { label: "Event Date", name: "eventDate", widget: "date" }
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Logo", name: "logo", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown" }
