@@ -15,7 +15,7 @@ class SchedulePage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Schedule" />
+        <SEO title="Schedule" pathname="/schedule"/>
         <h1 style={{marginBottom: `0`}}>Schedule</h1>
         <h2 style={{marginBottom: `1rem`}} className="alt">22 - 24 November, 2019</h2>
 

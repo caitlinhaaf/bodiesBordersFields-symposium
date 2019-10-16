@@ -1,0 +1,25 @@
+@import '../styles/variables';
+
+.headshot{
+    height: 20vw;
+    width: 100%;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+
+    img{
+        display: block;
+        height: 100%;
+        width: auto;
+        max-width: 100%;
+    }
+
+    @include md {
+        height: auto;
+        img{
+            width: 80%;
+            max-width: 300px;
+            height: auto;
+        }
+    }
+}

@@ -12,7 +12,7 @@ class AboutPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="About" />
+        <SEO title="About" pathname="/about"/>
         <article>
             <h1>About</h1>
 
@@ -20,7 +20,7 @@ class AboutPage extends React.Component {
             Convened by  Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that  re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
             </p>
 
-            <p style={{"font-weight": "bold", "font-size": "1.25rem"}}>
+            <p style={{fontWeight: "bold", fontSize: "1.25rem"}}>
             CHRISTINA BATTLE / RAYMOND BOISJOLY / DEANNA BOWEN/RIZVANA BRADLEY / JOSHUA CHAMBERS-LETSON /KEYON GASKIN / CHE GOSSETT / STEFFANI JEMISON / AISHA SASHA JOHN / JESSICA LYNNE / CHARMAINE NELSON / M. NOURBESE PHILIP/ TINA POST / KRYS VERRALL / KANDIS WILLIAMS
             </p>
 

@@ -2,12 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Bodies, Borders, Fields`,
     author: `Trinity Square Video`,
-    description: `Convened by Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
-    `,
+    description: `Convened by Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.`,
     keywords: `bodies borders fields, bodies borders fields symposium, trinity square video, toronto media arts centre, or gallery, canada council for the arts, arts sector innovation grant`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `http://www.bodiesbordersfields.com/`,
+    image: "/img/openGraph.jpg", // Path to your image you placed in the 'static' folder
     social: {
-      twitter: `caitlinhaaf`,
+      twitter: `TSVToronto`,
     },
   },
   plugins: [

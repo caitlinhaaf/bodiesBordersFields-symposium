@@ -12,7 +12,7 @@ class ResourcesPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Resources" />
+        <SEO title="Resources" pathname="/resources"/>
         <h1>Resources</h1>
         
         {posts.map(({ node }) => {

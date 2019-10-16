@@ -17,7 +17,7 @@ const Nav = () => {
 
     return (
       <nav className={componentStyles.bar}>
-          <div style={{"width": "40%", "min-width": "300px"}}>
+          <div style={{width: "40%", minWidth: "300px"}}>
             <Logotype />
           </div>
 
