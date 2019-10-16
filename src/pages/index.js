@@ -11,9 +11,6 @@ class Homepage extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
 
-    console.log(`testing...`)
-    console.log(document.querySelectorAll('.logoFade'))
-
     return (
       <LandingLayout location={this.props.location} title={siteTitle}>
         <SEO title="Home" />
