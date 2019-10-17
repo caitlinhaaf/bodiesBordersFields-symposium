@@ -84,6 +84,8 @@ collections:
                 { label: Location, name: location, widget: string },
                 { label: Start Time, name: startTime, required: true, widget: datetime, default: "", format: "LLL"},
                 { label: End Time, name: endTime, required: false, widget: datetime, default: "", format: "LLL" },
+                { label: Speakers, name: speakers, required: false, widget: string },
+                { label: Moderator, name: moderator, required: false, widget: string },
                 { label: Description, name: itemDescription, widget: "markdown"},
               ]
               }
