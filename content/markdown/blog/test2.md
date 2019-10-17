@@ -5,6 +5,6 @@ date: 2019-10-14T22:40:32.169Z
 description: 'Oxford Art Journal, Volume 40, Issue 1, March 2017, Pages 109–131'
 resourceFiles:
   - file: /img/jbw-keeping-house-with-nevelson-oaj.pdf
-    name: 'Resource #1'
+    name: Keeping House with Louise Nevelson
 ---
 This article examines how Louise Nevelson's Dream House sculptures (1972-1973) simultaneously produced and disrupted notions of domesticity. As a series of alternative or non-normative dwellings, the Dream Houses are spaces that indicate a broader potential to reinvent the home. Nevelson's wooden, allblack Dream House sculptures reconfigure our understanding of gendered domestic work - that is, the tending to physical space and matter around us, as well as the affective claims we make about our familiars, not least, claims Bryan-Wilson, queer or otherwise expansive forms of kinship around gender, sexuality, and race.
