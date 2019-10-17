@@ -76,16 +76,15 @@ collections:
           fields: [
             { label: Day of the Week, name: dayWeek, required: true, widget: string },
             { label: Date, name: date, required: true, widget: "date"},
-            { label: Schedule Item, 
-              name: scheduleItem,
+            { label: Schedule Items, 
+              name: scheduleItems,
               widget: list,
-              identifier_field: startTime,
               fields: [
                 { label: Item Name, name: itemName, required: true, widget: string },
                 { label: Location, name: location, widget: string },
                 { label: Start Time, name: startTime, required: true, widget: datetime },
                 { label: End Time, name: endTime, required: true, widget: datetime },
-                { label: Description, name: itemDescription, required: true, widget: "markdown"},
+                { label: Description, name: itemDescription, widget: "markdown"},
               ]
               }
           ]}
