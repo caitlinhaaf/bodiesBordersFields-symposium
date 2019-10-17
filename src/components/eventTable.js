@@ -20,8 +20,12 @@ const EventTable = ({eventItems, colorClass, hdrClass, ...props}) => {
                             <td className={colorClass}>
                                 <h4 className={hdrClass}>{item.itemName}</h4>
                                 <p>
-                                {item.description}
-                                <br/><br/>
+                                {item.description &&
+                                    <>
+                                        {item.description}
+                                        <br/><br/>
+                                    </>
+                                }
                                 {
                                     item.speakers &&
                                     <span>
