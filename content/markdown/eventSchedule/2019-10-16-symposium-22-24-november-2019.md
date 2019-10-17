@@ -7,25 +7,19 @@ days:
     dayWeek: Friday
     scheduleItems:
       - endTime: 'November 22, 2019 7:00 PM'
-        itemDescription: |-
-          A live performance by Keyon Gaskin followed by a short talk.
-
-          **Speaker(s):** Keyon Gaskin
+        itemDescription: A live performance by Keyon Gaskin followed by a short talk.
         itemName: Opening Performance
         location: '[location]'
+        speakers: Keyon Gaskin
         startTime: 'November 22, 2019 6:00 PM'
       - endTime: 'November 22, 2019 8:30 PM'
         itemDescription: >-
           A conversation about the themes, ideas and histories that were the
           starting point for this symposium.
-
-
-          **Speaker(s):** Krys Verall, M NourbeSe Philip
-
-
-          **Moderator:** Denise Ryner
         itemName: 'In Conversation, Border, Bodies, Fields: The Black Aesthetic Revisited'
         location: '[location]'
+        moderator: Denise Ryner
+        speakers: 'Krys Verall, M NourbeSe Philip'
         startTime: 'November 22, 2019 7:00 PM'
       - endTime: ''
         itemDescription: >-
@@ -41,21 +35,17 @@ days:
         itemDescription: >-
           A writing workshop for thinking and writing about black creative
           histories, feminst epistemologies and the arts. Sign up required.
-
-
-          **Speaker(s):** Jessica Lynne
         itemName: 'Workshop: Writing'
         location: '[location]'
+        speakers: Jessica Lynne
         startTime: 'November 23, 2019 11:00 AM'
       - endTime: 'November 23, 2019 12:30 PM'
         itemDescription: >-
           Three artists from different fields discuss the cultural forms created
           in times of urgency and how they move through time and space.
-
-
-          **Speaker(s):** Raymond Boisjoly, Bear Witness, Lillian Allen
         itemName: 'Rountable: Authenticity and the Replicability of Cultural Vernaculars'
         location: '[location]'
+        speakers: 'Raymond Boisjoly, Bear Witness, Lillian Allen'
         startTime: 'November 23, 2019 11:00 AM'
 ---
 
