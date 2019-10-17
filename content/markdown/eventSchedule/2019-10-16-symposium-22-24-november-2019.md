@@ -31,12 +31,13 @@ days:
   - date: 2019-11-24T03:57:20.798Z
     dayWeek: Saturday
     scheduleItems:
-      - endTime: 'November 23, 2019 12:30 PM'
-        itemName: 'Workshop: Writing'
-        location: '[location]'
-        moderator: >-
+      - description: >-
           A writing workshop for thinking and writing about black creative
           histories, feminst epistemologies and the arts. Sign up required.
+        endTime: 'November 23, 2019 12:30 PM'
+        itemName: 'Workshop: Writing'
+        location: '[location]'
+        moderator: ''
         speakers: Jessica Lynne
         startTime: 'November 23, 2019 11:00 AM'
       - description: >-
