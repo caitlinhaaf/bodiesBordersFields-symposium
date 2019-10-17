@@ -47,5 +47,15 @@ days:
         itemName: 'Workshop: Writing'
         location: '[location]'
         startTime: 'November 23, 2019 11:00 AM'
+      - endTime: 'November 23, 2019 12:30 PM'
+        itemDescription: >-
+          Three artists from different fields discuss the cultural forms created
+          in times of urgency and how they move through time and space.
+
+
+          **Speaker(s):** Raymond Boisjoly, Bear Witness, Lillian Allen
+        itemName: 'Rountable: Authenticity and the Replicability of Cultural Vernaculars'
+        location: '[location]'
+        startTime: 'November 23, 2019 11:00 AM'
 ---
 
