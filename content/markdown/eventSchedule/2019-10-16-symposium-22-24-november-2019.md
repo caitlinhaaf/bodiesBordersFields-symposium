@@ -14,5 +14,18 @@ days:
         itemName: Opening Performance
         location: '[location]'
         startTime: 'November 22, 2019 6:00 PM'
+      - endTime: 'November 22, 2019 8:30 PM'
+        itemDescription: >-
+          A conversation about the themes, ideas and histories that were the
+          starting point for this symposium.
+
+
+          **Speaker(s):** Krys Verall, M NourbeSe Philip
+
+
+          **Moderator:** Denise Ryner
+        itemName: 'In Conversation, Border, Bodies, Fields: The Black Aesthetic Revisited'
+        location: '[location]'
+        startTime: 'November 22, 2019 7:00 PM'
 ---
 
