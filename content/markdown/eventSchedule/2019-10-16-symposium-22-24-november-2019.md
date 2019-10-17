@@ -59,9 +59,18 @@ days:
           A conversation about blackness and visibility and living as visible
           and invisible in hypersurveilled society.
         endTime: 'November 23, 2019 4:00 PM'
-        itemName: Black Beings as Public Beings/Officiated Beings/Hypervisible Beings
+        itemName: >-
+          Roundtable: Black Beings as Public Beings/Officiated
+          Beings/Hypervisible Beings
         location: '[location]'
         speakers: 'Che Gossett (virtually), Charmaine Nelson Joshua Chambers Letson'
+        startTime: 'November 23, 2019 2:00 PM'
+      - description: >-
+          Open conversation that extends the topics and ideas discussed
+          throughout the day.
+        endTime: 'November 23, 2019 4:00 PM'
+        itemName: Talk/Plenary
+        location: '[location]'
         startTime: 'November 23, 2019 2:00 PM'
 ---
 
