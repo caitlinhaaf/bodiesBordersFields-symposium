@@ -1,20 +1,10 @@
 ---
 tagType: blogPost
-title: Another Blog Post
+title: Keeping House with Louise Nevelson by Julia Bryan-Wilson
 date: 2019-10-14T22:40:32.169Z
-description: >-
-  This is a custom description for SEO and Open Graph purposes, rather than the
-  default generated excerpt. Simply add a description field to the frontmatter.
+description: 'Oxford Art Journal, Volume 40, Issue 1, March 2017, Pages 109–131'
 resourceFiles:
-  - file: /img/testfile.pdf
+  - file: /img/jbw-keeping-house-with-nevelson-oaj.pdf
     name: 'Resource #1'
 ---
-This is just so you can see that posts are ordered by date. 
-
-This is my first post on my new fake blog! How exciting!
-
-Here is where the blog body would go.
-
-> This is what a blockquote would look like.
-
-This is what [a link](www.bodiesbordersfields.com) will look like.
+This article examines how Louise Nevelson's Dream House sculptures (1972-1973) simultaneously produced and disrupted notions of domesticity. As a series of alternative or non-normative dwellings, the Dream Houses are spaces that indicate a broader potential to reinvent the home. Nevelson's wooden, allblack Dream House sculptures reconfigure our understanding of gendered domestic work - that is, the tending to physical space and matter around us, as well as the affective claims we make about our familiars, not least, claims Bryan-Wilson, queer or otherwise expansive forms of kinship around gender, sexuality, and race.
