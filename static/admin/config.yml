@@ -69,7 +69,7 @@ collections:
     fields:
       - { label: "Tag Type", name: "tagType", widget: "hidden", default: "eventSchedule" }
       - { label: "Event Title", name: "eventTitle", widget: "string" }
-      - { label: "Event Start Date", name: "eventStartDate", widget: "string" }
+      - { label: "Event Start Date", name: "eventStartDate", widget: "date" }
       - { label: "Days", 
           name: "days", 
           widget: "list", 
