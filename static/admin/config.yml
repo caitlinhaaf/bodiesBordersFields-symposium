@@ -63,7 +63,7 @@ collections:
     description: "Add schedule for events. For each schedule, add days and then schedule items including name, location, start/end times, and description. Most current event schdule will be displayed on /schedule page."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    identifier_field: eventStartDate,
+    identifier_field: eventStartDate
     editor:
      preview: false
     fields:
