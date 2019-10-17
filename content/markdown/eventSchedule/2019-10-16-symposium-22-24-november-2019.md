@@ -44,17 +44,18 @@ days:
           Three artists from different fields discuss the cultural forms created
           in times of urgency and how they move through time and space.
         endTime: 'November 23, 2019 12:30 PM'
-        itemName: 'Rountable: Authenticity and the Replicability of Cultural Vernaculars'
+        itemName: 'Roundtable: Authenticity and the replicability of cultural vernaculars'
         location: '[location]'
         speakers: 'Raymond Boisjoly, Bear Witness, Lillian Allen'
         startTime: 'November 23, 2019 11:00 AM'
       - endTime: ''
         itemName: Brunch
         startTime: 'November 23, 2019 12:30 PM'
-      - description: Presented by the Or Gallery.
-        endTime: ''
-        itemName: 'Visiting Speakers Panel: France as a Black Space'
-        location: Or Gallery
+      - description: A workshop about performance and sound. Sign up required.
+        endTime: 'November 23, 2019 3:30 PM'
+        itemName: 'Workshop: aesthetics of black performance and sound'
+        location: ''
+        speakers: Steffani Jemison
         startTime: 'November 23, 2019 2:00 PM'
       - description: >-
           A conversation about blackness and visibility and living as visible
@@ -64,7 +65,7 @@ days:
           Roundtable: Black Beings as Public Beings/Officiated
           Beings/Hypervisible Beings
         location: '[location]'
-        speakers: 'Che Gossett (virtually), Charmaine Nelson Joshua Chambers Letson'
+        speakers: 'Che Gossett (virtually), Charmaine Nelson, Joshua Chambers Letson'
         startTime: 'November 23, 2019 2:00 PM'
       - description: >-
           Open conversation that extends the topics and ideas discussed
