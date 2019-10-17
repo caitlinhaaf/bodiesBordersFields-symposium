@@ -9,6 +9,7 @@ collections:
   - name: "contributor"
     label: "Contributor"
     folder: "content/markdown/contributors"
+    description: "Add even contributors (speakers, moderators, workshop facilitators. Add name, role, headshot image, and bio blurb. On page, they are arranged alphabetially by last name."
     identifier_field: lastName
     create: true
     editor:
@@ -23,6 +24,7 @@ collections:
   - name: "venue"
     label: "Venue"
     folder: "content/markdown/venues"
+    description: "Add venue information. Add associated event details (name, date), venue name and logo."
     identifier_field: name
     create: true
     editor:
@@ -37,6 +39,7 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "content/markdown/blog"
+    description: "Blog post with fields for linking file resources."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -57,6 +60,7 @@ collections:
   - name: "eventSchedule"
     label: "Event Schedule"
     folder: "content/markdown/eventSchedule"
+    description: "Add schedule for events. For each schedule, add days and then schedule items including name, location, start/end times, and description. Most current event schdule will be displayed on /schedule page."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -75,9 +79,10 @@ collections:
               widget: list,
               fields: [
                 { label: Item Name, name: itemName, required: true, widget: string },
+                { label: Location, name: location, widget: string },
                 { label: Start Time, name: startTime, required: true, widget: datetime },
                 { label: End Time, name: endTime, required: true, widget: datetime },
-                { label: Description, name: itemDescription, required: true, widget: string },
+                { label: Description, name: itemDescription, required: true, widget: "markdown"},
               ]
               }
           ]}
