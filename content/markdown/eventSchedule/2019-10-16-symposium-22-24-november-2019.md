@@ -34,5 +34,18 @@ days:
         itemName: Opening Reception
         location: '[location]'
         startTime: 'November 22, 2019 8:30 AM'
+  - date: 2019-11-24T03:57:20.798Z
+    dayWeek: Saturday
+    scheduleItems:
+      - endTime: 'November 23, 2019 12:30 PM'
+        itemDescription: >-
+          A writing workshop for thinking and writing about black creative
+          histories, feminst epistemologies and the arts. Sign up required.
+
+
+          **Speaker(s):** Jessica Lynne
+        itemName: 'Workshop: Writing'
+        location: '[location]'
+        startTime: 'November 23, 2019 11:00 AM'
 ---
 
