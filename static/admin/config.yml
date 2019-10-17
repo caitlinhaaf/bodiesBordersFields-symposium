@@ -54,3 +54,30 @@ collections:
             { label: Name, name: name, required: true, widget: string },
             { label: File, name: file, required: true, widget: file},
           ]}
+  - name: "eventSchedule"
+    label: "Event Schedule"
+    folder: "content/markdown/eventSchedule"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Tag Type", name: "tagType", widget: "hidden", default: "eventSchedule" }
+      - { label: "Event Title", name: "eventTitle", widget: "string" }
+      - { label: "Days", 
+          name: "days", 
+          widget: "list", 
+          fields: [
+            { label: Day of the Week, name: dayWeek, required: true, widget: string },
+            { label: Date, name: date, required: true, widget: "date"},
+            { label: Schedule Item, 
+              name: scheduleItem,
+              widget: list,
+              fields: [
+                { label: Item Name, name: itemName, required: true, widget: string },
+                { label: Start Time, name: startTime, required: true, widget: datetime },
+                { label: End Time, name: endTime, required: true, widget: datetime },
+                { label: Description, name: itemDescription, required: true, widget: string },
+              ]
+              }
+          ]}
