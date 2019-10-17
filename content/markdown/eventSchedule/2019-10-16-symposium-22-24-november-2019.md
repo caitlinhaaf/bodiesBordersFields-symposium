@@ -47,5 +47,21 @@ days:
         location: '[location]'
         speakers: 'Raymond Boisjoly, Bear Witness, Lillian Allen'
         startTime: 'November 23, 2019 11:00 AM'
+      - endTime: 'November 23, 2019 2:00 PM'
+        itemName: Brunch
+        startTime: 'November 23, 2019 12:30 PM'
+      - description: Presented by the Or Gallery.
+        endTime: ''
+        itemName: 'Visiting Speakers Panel: France as a Black Space'
+        location: Or Gallery
+        startTime: 'November 23, 2019 2:00 PM'
+      - description: >-
+          A conversation about blackness and visibility and living as visible
+          and invisible in hypersurveilled society.
+        endTime: 'November 23, 2019 4:00 PM'
+        itemName: Black Beings as Public Beings/Officiated Beings/Hypervisible Beings
+        location: '[location]'
+        speakers: 'Che Gossett (virtually), Charmaine Nelson Joshua Chambers Letson'
+        startTime: 'November 23, 2019 2:00 PM'
 ---
 
