@@ -72,5 +72,19 @@ days:
         itemName: Talk/Plenary
         location: '[location]'
         startTime: 'November 23, 2019 2:00 PM'
+  - date: 2019-11-24T06:17:41.981Z
+    dayWeek: Sunday
+    scheduleItems:
+      - endTime: ''
+        itemName: Brunch
+        startTime: 'November 24, 2019 11:00 AM'
+      - description: >-
+          A panel and discussion from performance theorists and practitioners
+          about blackness and performance and gesture.
+        endTime: 'November 24, 2019 2:30 PM'
+        itemName: 'Roundtable: Black Performance and Gesture'
+        location: '[location]'
+        speakers: 'Keyon Gaskin, Rizvana Bradley, Tina Post'
+        startTime: 'November 24, 2019 12:30 PM'
 ---
 
