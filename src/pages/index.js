@@ -51,21 +51,21 @@ export const pageQuery = graphql`
         title
       }
     }
-    bodiesImg: file(relativePath: { eq: "bodies.jpg" }) {
+    bodiesImg: file(relativePath: { eq: "bodies.png" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    bordersImg: file(relativePath: { eq: "borders.jpg" }) {
+    bordersImg: file(relativePath: { eq: "borders.png" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    fieldsImg: file(relativePath: { eq: "fields.jpg" }) {
+    fieldsImg: file(relativePath: { eq: "fields.png" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
