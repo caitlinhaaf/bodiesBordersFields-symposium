@@ -12,14 +12,33 @@ const EventTable = ({eventItems, colorClass, hdrClass, ...props}) => {
                             <td>
                                 {moment(item.startTime).local().format(`LT`)}
                                 {item.endTime &&
-                                    ` - ${moment(item.endTime).local().format(`LT`)}`
+                                    ` to ${moment(item.endTime).local().format(`LT`)}`
                                 } 
                                 <br/>
                                 {item.location}
                             </td>
                             <td className={colorClass}>
                                 <h4 className={hdrClass}>{item.itemName}</h4>
-                                <p dangerouslySetInnerHTML={{ __html: item.itemDescription }}  />
+                                <p>
+                                {item.itemDescription}
+                                <br/><br/>
+                                {
+                                    item.speakers &&
+                                    <span>
+                                        <span style={{fontWeight: `bold`}}>Speaker(s):</span> {item.speakers}
+                                    </span>  
+                                }
+                                {
+                                    item.moderator &&
+                                    <>
+                                        <br/>
+                                        <span>
+                                            <span style={{fontWeight: `bold`}}>Moderator:</span> {item.moderator}
+                                        </span> 
+                                    </> 
+                                }
+                                
+                                </p>
                             </td>
                         </tr>
                     ))

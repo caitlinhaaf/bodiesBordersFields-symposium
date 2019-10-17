@@ -102,6 +102,8 @@ export const pageQuery = graphql`
                     startTime
                     endTime
                     itemDescription
+                    moderator
+                    speakers
                 }
             }
           }
