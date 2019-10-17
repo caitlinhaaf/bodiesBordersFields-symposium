@@ -27,5 +27,12 @@ days:
         itemName: 'In Conversation, Border, Bodies, Fields: The Black Aesthetic Revisited'
         location: '[location]'
         startTime: 'November 22, 2019 7:00 PM'
+      - endTime: ''
+        itemDescription: >-
+          Opening reception for public and participants. Refreshments and snacks
+          served.
+        itemName: Opening Reception
+        location: '[location]'
+        startTime: 'November 22, 2019 8:30 AM'
 ---
 
