@@ -86,5 +86,28 @@ days:
         location: '[location]'
         speakers: 'Keyon Gaskin, Rizvana Bradley, Tina Post'
         startTime: 'November 24, 2019 12:30 PM'
+      - description: >-
+          A participatory workshop that uses the body, and interaction with
+          others to centre and ground us in our bodies. Sign up required.
+        endTime: 'November 24, 2019 4:00 PM'
+        itemName: Workshop
+        location: '[location]'
+        speakers: Aisha Sasha John
+        startTime: 'November 24, 2019 2:30 PM'
+      - description: >-
+          A conversation about representation and artistic forms from ancient
+          greece to contemporary cinema.
+        endTime: 'November 24, 2019 5:00 PM'
+        itemName: 'Round Table: Black and Formal Aesthetics'
+        location: '[location]'
+        speakers: 'Kandis Williams, Deanna Bowen, Christina Battle'
+        startTime: 'November 24, 2019 3:00 PM'
+      - description: >-
+          In closing a gathering to discuss responses and outcomes of the
+          weekend's events, presentations and performances.
+        endTime: 'November 24, 2019 6:00 PM'
+        itemName: Plenary/Open Response
+        location: '[location]'
+        startTime: 'November 24, 2019 5:00 PM'
 ---
 
