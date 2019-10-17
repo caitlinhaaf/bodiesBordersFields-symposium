@@ -63,11 +63,13 @@ collections:
     description: "Add schedule for events. For each schedule, add days and then schedule items including name, location, start/end times, and description. Most current event schdule will be displayed on /schedule page."
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: eventStartDate,
     editor:
      preview: false
     fields:
       - { label: "Tag Type", name: "tagType", widget: "hidden", default: "eventSchedule" }
       - { label: "Event Title", name: "eventTitle", widget: "string" }
+      - { label: "Event Start Date", name: "eventStartDate", widget: "string" }
       - { label: "Days", 
           name: "days", 
           widget: "list", 
@@ -77,6 +79,7 @@ collections:
             { label: Schedule Item, 
               name: scheduleItem,
               widget: list,
+              identifier_field: startTime,
               fields: [
                 { label: Item Name, name: itemName, required: true, widget: string },
                 { label: Location, name: location, widget: string },
