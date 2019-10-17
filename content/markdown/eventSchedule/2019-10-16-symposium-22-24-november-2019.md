@@ -47,7 +47,7 @@ days:
         location: '[location]'
         speakers: 'Raymond Boisjoly, Bear Witness, Lillian Allen'
         startTime: 'November 23, 2019 11:00 AM'
-      - endTime: 'November 23, 2019 2:00 PM'
+      - endTime: Invalid date
         itemName: Brunch
         startTime: 'November 23, 2019 12:30 PM'
       - description: Presented by the Or Gallery.
