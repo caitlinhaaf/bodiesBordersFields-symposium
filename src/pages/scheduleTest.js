@@ -103,6 +103,7 @@ export const pageQuery = graphql`
                     endTime
                     moderator
                     speakers
+                    description
                 }
             }
           }
