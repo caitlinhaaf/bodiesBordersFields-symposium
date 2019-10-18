@@ -4,7 +4,6 @@ import Img from "gatsby-image"
 
 import LandingLayout from "../components/landingLayout"
 import SEO from "../components/seo"
-// import Logotype from "../components/logotype"
 
 class Homepage extends React.Component {
   render() {

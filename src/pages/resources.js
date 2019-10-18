@@ -19,29 +19,42 @@ class ResourcesPage extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
-              <header>
-                <h3
-                  className="alt"
-                  style={{
-                    marginBottom: `.5rem`,
-                  }}
-                >
-                  <Link style={{ 
-                    fontSize: `1.75rem`, 
-                    boxShadow: `none`,
-                    }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
+              <div className="twoCol">
+
+                <img style={{maxWidth: `15rem`}} src={node.frontmatter.featureImg} alt="blog post feature"/>
+
+                <div>
+                  <header>
+                  <h3
+                    className="alt"
+                    style={{
+                      marginBottom: `.5rem`,
+                    }}
+                  >
+                    <Link style={{ 
+                      fontSize: `1.75rem`, 
+                      boxShadow: `none`,
+                      }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small>{node.frontmatter.date}</small>
+                </header>
+                <section>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
+                </div>
+
+
+              </div>
+
+             
+
+
             </article>
             )
           })
@@ -76,6 +89,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            featureImg
           }
         }
       }

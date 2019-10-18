@@ -37,6 +37,7 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
           </header>
+          <img style={{maxWidth: `20rem`, margin: `0 auto`}} src={post.frontmatter.featureImg} alt="blog feature"/>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
 
           <h2>Resources</h2>
@@ -109,6 +110,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featureImg
         resourceFiles{
           name
           file

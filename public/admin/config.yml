@@ -6,6 +6,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "about"
+    label: "About"
+    folder: "content/markdown/about"
+    description: "Edit content of the About page. If more than one item is added to collection, page will display the most recent."
+    identifier_field: eventName
+    create: true
+    editor:
+     preview: false
+    fields:
+      - { label: "Tag Type", name: "tagType", widget: "hidden", default: "about" }
+      - { label: "Event Name", name: "eventName", widget: "string" }
+      - { label: "Event Date", name: "eventDate", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "contributor"
     label: "Contributor"
     folder: "content/markdown/contributors"
@@ -49,6 +62,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Feature Image", name: "featureImg", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Resource Files", 
           name: "resourceFiles", 

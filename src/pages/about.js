@@ -9,6 +9,9 @@ class AboutPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
+    const currentAbout = data.allMarkdownRemark.edges[0].node
+
+    console.log(currentAbout)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -16,7 +19,9 @@ class AboutPage extends React.Component {
         <article>
             <h1>About</h1>
 
-            <p>
+            <p dangerouslySetInnerHTML={{ __html: currentAbout.html }}></p>
+
+            {/* <p>
             Convened by  Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that  re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
             </p>
 
@@ -42,7 +47,7 @@ class AboutPage extends React.Component {
 
             <p>
             All roundtables, talks and panels are free and open to the public. Registration required for workshops
-            </p>
+            </p> */}
         </article>
 
         <h2>Presented By</h2>
@@ -61,5 +66,19 @@ export const pageQuery = graphql`
         title
       }
     }
+    allMarkdownRemark(
+      filter: {frontmatter: {tagType: {eq: "about"}}},
+      sort: { fields: [frontmatter___eventStartDate], 
+      order: ASC
+    }) {
+    edges {
+      node {
+        html
+        frontmatter {
+          eventName
+        }
+      }
+    }
+  }
   }
 `
