@@ -18,8 +18,8 @@ days:
         endTime: 'November 22, 2019 8:30 PM'
         itemName: 'In Conversation, Border, Bodies, Fields: The Black Aesthetic Revisited'
         location: '[location]'
-        moderator: Denise Ryner
-        speakers: TBA
+        moderator: ''
+        speakers: Krys Verrall with Denise Ryner
         startTime: 'November 22, 2019 7:00 PM'
       - description: >-
           Opening reception for public and participants. Refreshments and snacks
