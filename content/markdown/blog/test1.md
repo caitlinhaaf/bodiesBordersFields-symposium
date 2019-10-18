@@ -3,7 +3,7 @@ tagType: blogPost
 title: 'arts/canada No. 113, October 1967'
 date: 2019-10-17T22:12:03.284Z
 description: arts/canada No. 113
-featureImg: /img/blue-web.jpg
+featureImg: /img/screen-shot-2019-10-18-at-12.31.55.png
 resourceFiles:
   - file: /img/artscanada_no_113.pdf
     name: arts/canada No. 113
