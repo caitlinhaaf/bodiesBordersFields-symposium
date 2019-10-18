@@ -3,7 +3,7 @@ tagType: blogPost
 title: Keeping House with Louise Nevelson by Julia Bryan-Wilson
 date: 2019-10-14T22:40:32.169Z
 description: 'Oxford Art Journal, Volume 40, Issue 1, March 2017, Pages 109–131'
-featureImg: /img/blue-web.jpg
+featureImg: /img/screen-shot-2019-10-18-at-12.30.53.png
 resourceFiles:
   - file: /img/jbw-keeping-house-with-nevelson-oaj.pdf
     name: Keeping House with Louise Nevelson
