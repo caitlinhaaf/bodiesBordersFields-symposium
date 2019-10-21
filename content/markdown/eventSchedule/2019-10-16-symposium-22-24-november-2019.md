@@ -49,7 +49,7 @@ days:
         speakers: 'Raymond Boisjoly, Bear Witness, Lillian Allen'
         startTime: 'November 23, 2019 11:00 AM'
       - endTime: ''
-        itemName: Brunch
+        itemName: Lunch
         startTime: 'November 23, 2019 12:30 PM'
       - description: A workshop about performance and sound. Sign up required.
         endTime: 'November 23, 2019 3:30 PM'
