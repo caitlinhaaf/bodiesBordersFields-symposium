@@ -44,6 +44,7 @@ function SEO({ description, lang, meta, title, pathname }) {
             <title>{title}</title>
             <meta name="description" content={metaDescription} />
             <meta name="image" content={ogImageUrl} />
+            <meta name="keywords" content={site.siteMetadata.keywords} />
             <link rel="canonical" href={pageUrl} />
 
             {/* OpenGraph tags */}
