@@ -15,4 +15,24 @@ Bodies Borders Fields, is a series of events that conversation. Responding to an
 
 Participants have a stake in contemporary discourses and readings of black and blackness as a signifier as well as a lived-experience shared by generations of the black diaspora. Bodies Borders Fields supports ongoing and future discussions of blackness as an ever shifting, circulating and transforming factor for the survival and destabilization of colonial systems and institutions.
 
-All roundtables, talks and panels are free and open to the public. Registration required for workshops
+All roundtables, talks and panels are free and open to the public. 
+
+**Register for the symposium** [**here**](https://www.eventbrite.ca/e/bodies-borders-fields-symposium-tickets-77522691457?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing)**.** 
+
+Additional, individual registration is required for the following events as capacity is limited.
+
+WORKSHOP: Writing with Jessica Lynne Saturday \
+November 23 | 11:00AM \
+Register here
+
+WORKSHOP: Aesthetics of Black Performance and Sound with Steffani Jemison\
+Saturday November 23 | 2:00PM\
+Register here
+
+BRUNCH with Sean D. Henry-Smith and Imani Elizabeth Jackson\
+Sunday November 24 | 11:00AM\
+Register here
+
+WORKSHOP with Aisha Sasha John\
+Sunday November 24 | 4:00PM\
+Register here
