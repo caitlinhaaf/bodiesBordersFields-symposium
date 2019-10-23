@@ -52,7 +52,9 @@ days:
       - endTime: ''
         itemName: Lunch
         startTime: 'November 23, 2019 12:30 PM'
-      - description: A workshop about performance and sound. Sign up required.
+      - description: >-
+          A workshop about performance and sound. Sign up required. Please sign
+          up here: bit.ly/33R17Y0
         endTime: 'November 23, 2019 3:30 PM'
         itemName: 'Workshop: aesthetics of black performance and sound'
         location: ''
