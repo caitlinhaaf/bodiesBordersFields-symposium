@@ -5,7 +5,7 @@ eventDate: 2019-11-22T16:59:11.021Z
 ---
 Convened by Denise Ryner in collaboration with Yaniya Lee, Bodies Borders Fields is a free public symposium that re-imagines a 1967 conversation about blackness to generate a larger discourse for the contemporary moment around blackness and fugitivity as represented in critical art practices today.
 
-**LILLIAN ALLEN / CHRISTINA BATTLE / RAYMOND BOISJOLY / DEANNA BOWEN / JOSHUA CHAMBERS-LETSON /KEYON GASKIN / CHE GOSSETT / STEFFANI JEMISON / AISHA SASHA JOHN / JESSICA LYNNE / CHARMAINE NELSON / TINA POST / KRYS VERRALL / KANDIS WILLIAMS / BEAR WITNESS**
+**LILLIAN ALLEN / CHRISTINA BATTLE / RAYMOND BOISJOLY / DEANNA BOWEN / JOSHUA CHAMBERS-LETSON / KEYON GASKIN / CHE GOSSETT / SEAN D. HENRY-SMITH / IMANI ELIZABETH JACKSON / STEFFANI JEMISON / AISHA SASHA JOHN / JESSICA LYNNE / CHARMAINE NELSON / M NOURBESE PHILIP / TINA POST / KRYS VERRALL / KANDIS WILLIAMS / BEAR WITNESS**
 
 Bodies Borders Fields is a collaborative presentation of Trinity Square Video and Or Gallery with support from the Consulate General of France in Vancouver, OCADU, the Toronto Media Arts Centre and the Canada Council for the Arts Sector Innovation Grant. The symposium is co-convened by Denise Ryner and Yaniya Lee with organizational support by Emily Fitzpatrick and Karina Iskandarsjah. Design by Sameer Farooq.
 
