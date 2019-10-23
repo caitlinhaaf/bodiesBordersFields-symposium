@@ -94,9 +94,10 @@ days:
         startTime: 'November 24, 2019 12:30 PM'
       - description: >-
           A participatory workshop that uses the body, and interaction with
-          others to centre and ground us in our bodies. Sign up required.
+          others to centre and ground us in our bodies. Sign up required. Please
+          sign up here: bit.ly/31Kypa9
         endTime: 'November 24, 2019 4:00 PM'
-        itemName: Workshop
+        itemName: Workshop with Aisha Sasha John
         location: '[location]'
         speakers: Aisha Sasha John
         startTime: 'November 24, 2019 2:30 PM'
