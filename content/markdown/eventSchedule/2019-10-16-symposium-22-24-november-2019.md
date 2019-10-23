@@ -73,10 +73,10 @@ days:
       - description: >-
           Open conversation that extends the topics and ideas discussed
           throughout the day.
-        endTime: 'November 23, 2019 4:00 PM'
+        endTime: 'November 23, 2019 6:00 PM'
         itemName: Talk/Plenary
         location: '[location]'
-        startTime: 'November 23, 2019 2:00 PM'
+        startTime: 'November 23, 2019 4:00 PM'
   - date: 2019-11-24T06:17:41.981Z
     dayWeek: Sunday
     scheduleItems:
