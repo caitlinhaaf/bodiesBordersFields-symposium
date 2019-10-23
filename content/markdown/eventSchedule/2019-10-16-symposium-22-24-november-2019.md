@@ -80,8 +80,9 @@ days:
   - date: 2019-11-24T06:17:41.981Z
     dayWeek: Sunday
     scheduleItems:
-      - endTime: ''
-        itemName: Brunch
+      - description: 'Please sign up here: bit.ly/2N7hbhz'
+        endTime: ''
+        itemName: Brunch with Sean D. Henry-Smith and Imani Elizabeth Jackson
         startTime: 'November 24, 2019 11:00 AM'
       - description: >-
           A panel and discussion from performance theorists and practitioners
