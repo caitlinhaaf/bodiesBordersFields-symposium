@@ -57,6 +57,9 @@ days:
           up here: bit.ly/33R17Y0
         endTime: 'November 23, 2019 3:30 PM'
         itemName: 'Workshop: aesthetics of black performance and sound'
+        link:
+          - linkText: Sign Up Here
+            linkUrl: 'http://www.bit.ly/33R17Y0'
         location: ''
         speakers: Steffani Jemison
         startTime: 'November 23, 2019 2:00 PM'
