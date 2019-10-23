@@ -33,7 +33,8 @@ days:
     scheduleItems:
       - description: >-
           A writing workshop for thinking and writing about black creative
-          histories, feminst epistemologies and the arts. Sign up required.
+          histories, feminist epistemologies and the arts. Sign up required.
+          Please sign up here: bit.ly/2BzID2g
         endTime: 'November 23, 2019 12:30 PM'
         itemName: 'Workshop: Writing'
         location: '[location]'
