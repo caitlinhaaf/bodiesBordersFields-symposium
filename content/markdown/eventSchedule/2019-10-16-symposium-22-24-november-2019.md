@@ -8,9 +8,9 @@ days:
     scheduleItems:
       - description: A live performance by Keyon Gaskin followed by a short talk.
         endTime: 'November 22, 2019 7:00 PM'
-        itemName: Opening Performance
+        itemName: Opening Performance by Keyon Gaskin
         location: '[location]'
-        speakers: Keyon Gaskin
+        speakers: ''
         startTime: 'November 22, 2019 6:00 PM'
       - description: >-
           A conversation about the themes, ideas and histories that were the
