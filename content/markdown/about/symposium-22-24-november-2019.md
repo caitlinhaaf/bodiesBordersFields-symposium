@@ -17,22 +17,22 @@ Participants have a stake in contemporary discourses and readings of black and b
 
 All roundtables, talks and panels are free and open to the public. 
 
-**Register for the symposium** [**here**](https://www.eventbrite.ca/e/bodies-borders-fields-symposium-tickets-77522691457?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing)**.** 
+**Register for the symposium** [**here**](https://www.eventbrite.ca/e/bodies-borders-fields-symposium-tickets-77522691457?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing)**.** 
 
-Additional, individual registration is required for the following events as capacity is limited.
+Additional, individual registration is required for the following events as capacity is limited.
 
-WORKSHOP: Writing with Jessica Lynne Saturday \
-November 23 | 11:00AM \
-Register here
+**WORKSHOP: Writing with Jessica Lynne** 
+Saturday November 23 | 11:00AM \
+Register [here](https://www.eventbrite.ca/e/78127921717)
 
-WORKSHOP: Aesthetics of Black Performance and Sound with Steffani Jemison\
-Saturday November 23 | 2:00PM\
-Register here
+**WORKSHOP: Aesthetics of Black Performance and Sound with Steffani Jemison**
+Saturday November 23 | 2:00PM
+Register [here](https://www.eventbrite.ca/e/78127969861)
 
-BRUNCH with Sean D. Henry-Smith and Imani Elizabeth Jackson\
-Sunday November 24 | 11:00AM\
-Register here
+**BRUNCH with Sean D. Henry-Smith and Imani Elizabeth Jackson**
+Sunday November 24 | 11:00AM
+Register [here](https://www.eventbrite.ca/e/78128048095)
 
-WORKSHOP with Aisha Sasha John\
-Sunday November 24 | 4:00PM\
-Register here
+**WORKSHOP with Aisha Sasha John**
+Sunday November 24 | 4:00PM
+Register [here](https://www.eventbrite.ca/e/78128134353)
