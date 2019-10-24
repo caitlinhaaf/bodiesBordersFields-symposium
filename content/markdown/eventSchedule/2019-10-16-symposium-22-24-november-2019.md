@@ -9,7 +9,7 @@ days:
       - description: A live performance by Keyon Gaskin followed by a short talk.
         endTime: 'November 22, 2019 7:00 PM'
         itemName: Opening Performance by Keyon Gaskin
-        location: '[location]'
+        location: The Theatre Centre
         speakers: ''
         startTime: 'November 22, 2019 6:00 PM'
       - description: >-
