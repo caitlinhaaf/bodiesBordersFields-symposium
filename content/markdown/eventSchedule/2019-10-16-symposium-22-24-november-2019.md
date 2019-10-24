@@ -19,7 +19,7 @@ days:
         itemName: 'In Conversation, Border, Bodies, Fields: The Black Aesthetic Revisited'
         location: '[location]'
         moderator: ''
-        speakers: Krys Verrall with Denise Ryner
+        speakers: Krys Verrall and M Nourbese Philip with Denise Ryner and Yaniya Lee
         startTime: 'November 22, 2019 7:00 PM'
       - description: >-
           Opening reception for public and participants. Refreshments and snacks
