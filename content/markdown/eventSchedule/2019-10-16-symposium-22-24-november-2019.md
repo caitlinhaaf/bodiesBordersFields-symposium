@@ -46,11 +46,12 @@ days:
           in times of urgency and how they move through time and space.
         endTime: 'November 23, 2019 12:30 PM'
         itemName: 'Roundtable: Authenticity and the replicability of cultural vernaculars'
-        location: '[location]'
+        location: Toronto Media Arts Centre
         speakers: 'Raymond Boisjoly, Bear Witness, Lillian Allen'
         startTime: 'November 23, 2019 11:00 AM'
       - endTime: ''
         itemName: Lunch
+        location: Toronto Media Arts Centre
         startTime: 'November 23, 2019 12:30 PM'
       - description: >-
           A workshop about performance and sound. Sign up required. Please sign
@@ -70,7 +71,7 @@ days:
         itemName: >-
           Roundtable: Black Beings as Public Beings/Officiated
           Beings/Hypervisible Beings
-        location: '[location]'
+        location: Toronto Media Arts Centre
         speakers: 'Che Gossett (virtually), Charmaine Nelson, Joshua Chambers Letson'
         startTime: 'November 23, 2019 2:00 PM'
       - description: >-
@@ -78,7 +79,7 @@ days:
           throughout the day.
         endTime: 'November 23, 2019 6:00 PM'
         itemName: Talk/Plenary
-        location: '[location]'
+        location: Toronto Media Arts Centre
         startTime: 'November 23, 2019 4:00 PM'
   - date: 2019-11-24T06:17:41.981Z
     dayWeek: Sunday
