@@ -87,13 +87,14 @@ days:
       - description: 'Please sign up here: bit.ly/2N7hbhz'
         endTime: ''
         itemName: Brunch with Sean D. Henry-Smith and Imani Elizabeth Jackson
+        location: Toronto Media Arts Centre
         startTime: 'November 24, 2019 11:00 AM'
       - description: >-
           A panel and discussion from performance theorists and practitioners
           about blackness and performance and gesture.
         endTime: 'November 24, 2019 2:30 PM'
         itemName: 'Roundtable: Black Performance and Gesture'
-        location: '[location]'
+        location: Toronto Media Arts Centre
         speakers: 'Keyon Gaskin, M. NourbeSe Philip, Tina Post'
         startTime: 'November 24, 2019 12:30 PM'
       - description: >-
@@ -102,7 +103,7 @@ days:
           sign up here: bit.ly/31Kypa9
         endTime: 'November 24, 2019 4:00 PM'
         itemName: Workshop with Aisha Sasha John
-        location: '[location]'
+        location: The Gladstone Hotel
         speakers: Aisha Sasha John
         startTime: 'November 24, 2019 2:30 PM'
       - description: >-
@@ -110,7 +111,7 @@ days:
           greece to contemporary cinema.
         endTime: 'November 24, 2019 5:00 PM'
         itemName: 'Round Table: Black and Formal Aesthetics'
-        location: '[location]'
+        location: Toronto Media Arts Centre
         speakers: 'Kandis Williams, Deanna Bowen, Christina Battle'
         startTime: 'November 24, 2019 3:00 PM'
       - description: >-
@@ -118,7 +119,7 @@ days:
           weekend's events, presentations and performances.
         endTime: 'November 24, 2019 6:00 PM'
         itemName: Plenary/Open Response
-        location: '[location]'
+        location: Toronto Media Arts Centre
         startTime: 'November 24, 2019 5:00 PM'
 ---
 
