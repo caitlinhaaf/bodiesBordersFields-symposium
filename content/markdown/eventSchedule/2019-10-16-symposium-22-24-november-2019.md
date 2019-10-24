@@ -17,7 +17,7 @@ days:
           starting point for this symposium.
         endTime: 'November 22, 2019 8:30 PM'
         itemName: 'In Conversation, Border, Bodies, Fields: The Black Aesthetic Revisited'
-        location: '[location]'
+        location: Toronto Media Arts Centre
         moderator: ''
         speakers: Krys Verrall and M Nourbese Philip with Denise Ryner and Yaniya Lee
         startTime: 'November 22, 2019 7:00 PM'
@@ -26,7 +26,7 @@ days:
           served.
         endTime: ''
         itemName: Opening Reception
-        location: '[location]'
+        location: Toronto Media Arts Centre
         startTime: 'November 22, 2019 8:30 AM'
   - date: 2019-11-24T03:57:20.798Z
     dayWeek: Saturday
