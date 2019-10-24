@@ -37,7 +37,7 @@ days:
           Please sign up here: bit.ly/2BzID2g
         endTime: 'November 23, 2019 12:30 PM'
         itemName: 'Workshop: Writing'
-        location: '[location]'
+        location: '[location TBD]'
         moderator: ''
         speakers: Jessica Lynne
         startTime: 'November 23, 2019 11:00 AM'
@@ -61,7 +61,7 @@ days:
         link:
           - linkText: Sign Up Here
             linkUrl: 'http://www.bit.ly/33R17Y0'
-        location: ''
+        location: '[location TBD]'
         speakers: Steffani Jemison
         startTime: 'November 23, 2019 2:00 PM'
       - description: >-
