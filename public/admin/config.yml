@@ -101,6 +101,14 @@ collections:
                 { label: Speakers, name: speakers, required: false, widget: string },
                 { label: Moderator, name: moderator, required: false, widget: string },
                 { label: Description, name: description, required: false, widget: "string"},
+                { label: "Link", 
+                  name: "link", 
+                  required: false,
+                  widget: "list", 
+                  fields: [
+                    { label: Link Text, name: linkText, required: true, widget: string },
+                    { label: Link URL, name: linkUrl, required: true, widget: string},
+                  ]},
               ]
               }
           ]}

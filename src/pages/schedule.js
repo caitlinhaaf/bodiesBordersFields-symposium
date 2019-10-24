@@ -113,6 +113,10 @@ export const pageQuery = graphql`
                     moderator
                     speakers
                     description
+                    link{
+                      linkText
+                      linkUrl
+                    }
                 }
             }
           }

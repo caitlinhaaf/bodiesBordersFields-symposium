@@ -23,14 +23,29 @@ const EventTable = ({eventItems, colorClass, hdrClass, ...props}) => {
                                 {item.description &&
                                     <>
                                         {item.description}
-                                        <br/><br/>
                                     </>
+                                }
+                                {item.link &&
+                                    <>
+                                     <br/>
+                                     { item.link.map((link, i) => (
+                                        <span>
+                                            <a key={i} target="_blank" rel="noopener noreferrer" href={link.linkUrl}>
+                                            {link.linkText}
+                                            </a>&nbsp;
+                                        </span>
+                                    ))}
+                                    </>   
                                 }
                                 {
                                     item.speakers &&
-                                    <span>
-                                        <span style={{fontWeight: `bold`}}>Speaker(s):</span> {item.speakers}
-                                    </span>  
+                                    <>
+                                         <br/><br/>
+                                         <span>
+                                            <span style={{fontWeight: `bold`}}>Speaker(s):</span> {item.speakers}
+                                        </span>
+                                    </>
+                                      
                                 }
                                 {
                                     item.moderator &&
