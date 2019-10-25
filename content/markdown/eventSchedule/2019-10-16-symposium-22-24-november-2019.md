@@ -37,7 +37,7 @@ days:
         endTime: 'November 23, 2019 12:30 PM'
         itemName: 'Workshop: Writing'
         link:
-          - linkText: Sign up here
+          - linkText: Sign Up Here
             linkUrl: bit.ly/2BzID2g
         location: '[location TBD]'
         moderator: ''
