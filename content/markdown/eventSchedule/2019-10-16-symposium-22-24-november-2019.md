@@ -109,7 +109,7 @@ days:
         itemName: Workshop with Aisha Sasha John
         link:
           - linkText: Sign Up Here
-            linkUrl: bit.ly/31Kypa9
+            linkUrl: 'https://www.eventbrite.ca/e/78128134353'
         location: The Gladstone Hotel
         speakers: Aisha Sasha John
         startTime: 'November 24, 2019 2:30 PM'
