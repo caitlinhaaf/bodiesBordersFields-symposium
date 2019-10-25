@@ -100,7 +100,7 @@ days:
         endTime: 'November 24, 2019 2:30 PM'
         itemName: 'Roundtable: Black Performance and Gesture'
         location: Toronto Media Arts Centre
-        speakers: 'Keyon Gaskin, M. NourbeSe Philip, Tina Post'
+        speakers: 'Keyon Gaskin, Tina Post'
         startTime: 'November 24, 2019 12:30 PM'
       - description: >-
           A participatory workshop that uses the body, and interaction with
