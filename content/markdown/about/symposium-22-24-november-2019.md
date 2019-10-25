@@ -32,3 +32,7 @@ Register [here](https://www.eventbrite.ca/e/78128048095)
 **WORKSHOP with Aisha Sasha John**
 Sunday November 24 | 4:00PM
 Register [here](https://www.eventbrite.ca/e/78128134353)
+
+
+
+Bodies Borders and Fields design by Sameer Farooq.
