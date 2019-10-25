@@ -34,9 +34,11 @@ days:
       - description: >-
           A writing workshop for thinking and writing about black creative
           histories, feminist epistemologies and the arts. Sign up required.
-          Please sign up here: bit.ly/2BzID2g
         endTime: 'November 23, 2019 12:30 PM'
         itemName: 'Workshop: Writing'
+        link:
+          - linkText: Sign up here
+            linkUrl: bit.ly/2BzID2g
         location: '[location TBD]'
         moderator: ''
         speakers: Jessica Lynne
