@@ -91,7 +91,7 @@ days:
         itemName: Brunch with Sean D. Henry-Smith and Imani Elizabeth Jackson
         link:
           - linkText: Sign Up Here
-            linkUrl: bit.ly/2N7hbhz
+            linkUrl: 'https://www.eventbrite.ca/e/78128048095'
         location: Toronto Media Arts Centre
         startTime: 'November 24, 2019 11:00 AM'
       - description: >-
