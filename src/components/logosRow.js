@@ -14,7 +14,7 @@ const LogosRow = () => {
           }
         }
       }
-      orLogo: file(relativePath: { eq: "orGalleryLogo.png" }) {
+      orLogo: file(relativePath: { eq: "or-gallery-logo.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid
@@ -28,7 +28,7 @@ const LogosRow = () => {
           }
         }
       }
-      cacLogo: file(relativePath: { eq: "canadaArtsCouncilLogo.png" }) {
+      cacLogo: file(relativePath: { eq: "ccfa-logo-black.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500) {
             ...GatsbyImageSharpFluid
@@ -44,9 +44,9 @@ const LogosRow = () => {
 
           <Img fluid={data.tsvLogo.childImageSharp.fluid} objectFit="cover" alt="Trinity Square Video logo."/>
 
-          <Img fluid={data.tmacLogo.childImageSharp.fluid} objectFit="cover" alt="Toronto Media Arts Centre logo."/>
+          <Img fluid={data.orLogo.childImageSharp.fluid} objectFit="cover" alt="Or Gallery logo."/>
 
-          <Img fluid={data.orLogo.childImageSharp.fluid} objectFit="cover" alt="Or Gallery logo." style={{maxWidth: `8rem`}}/>
+          <Img fluid={data.tmacLogo.childImageSharp.fluid} objectFit="cover" alt="Toronto Media Arts Centre logo."/>
     </div>
   )
 }
