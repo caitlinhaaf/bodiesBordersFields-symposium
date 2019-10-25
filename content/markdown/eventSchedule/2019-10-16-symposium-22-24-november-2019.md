@@ -38,7 +38,7 @@ days:
         itemName: 'Workshop: Writing'
         link:
           - linkText: Sign Up Here
-            linkUrl: bit.ly/2BzID2g
+            linkUrl: 'https://www.eventbrite.ca/e/78127921717'
         location: '[location TBD]'
         moderator: ''
         speakers: Jessica Lynne
