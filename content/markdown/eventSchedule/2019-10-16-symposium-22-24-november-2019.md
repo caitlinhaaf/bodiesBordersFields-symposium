@@ -86,9 +86,12 @@ days:
   - date: 2019-11-24T06:17:41.981Z
     dayWeek: Sunday
     scheduleItems:
-      - description: 'Please sign up here: bit.ly/2N7hbhz'
+      - description: ''
         endTime: ''
         itemName: Brunch with Sean D. Henry-Smith and Imani Elizabeth Jackson
+        link:
+          - linkText: Sign Up Here
+            linkUrl: bit.ly/2N7hbhz
         location: Toronto Media Arts Centre
         startTime: 'November 24, 2019 11:00 AM'
       - description: >-
@@ -101,10 +104,12 @@ days:
         startTime: 'November 24, 2019 12:30 PM'
       - description: >-
           A participatory workshop that uses the body, and interaction with
-          others to centre and ground us in our bodies. Sign up required. Please
-          sign up here: bit.ly/31Kypa9
+          others to centre and ground us in our bodies. Sign up required. 
         endTime: 'November 24, 2019 4:00 PM'
         itemName: Workshop with Aisha Sasha John
+        link:
+          - linkText: Sign Up Here
+            linkUrl: bit.ly/31Kypa9
         location: The Gladstone Hotel
         speakers: Aisha Sasha John
         startTime: 'November 24, 2019 2:30 PM'
