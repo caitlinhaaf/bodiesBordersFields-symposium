@@ -5,4 +5,4 @@ lastName: Battle
 role: Speaker
 headshot: /img/battle.jpg
 ---
-Christina Battle is a video and installation artist who was born in Edmonton, Alberta, Canada. She holds a Master of Fine Arts from the San Francisco Art Institute and a certificate in Film Studies from Ryerson University.
+Christina Battle’s (Edmonton, Canada) research and artistic work consider the parameters of disaster; looking to it as action, as more than mere event and instead as a framework operating within larger systems of power. Through this research she imagines how disaster could be utilized as a tactic for social change and as a tool for reimagining how dominant systems might radically shift. \[www.cbattle.com]
