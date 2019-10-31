@@ -3,7 +3,7 @@ tagType: contributor
 firstName: Lillian
 lastName: Allen
 role: Speaker
-headshot: /img/blue-web.jpg
+headshot: /img/lillian-allen-sustainability_0-1.jpg
 ---
 Before spoken-word poetry, hip hop and rap emerged as dominant forces in Toronto’s cultural sphere, Lillian Allen was presenting her delicately fierce, rhythmic and roaring poetics. Bending boundaries, mixing and melding genres, A two time Juno award winner, Allen's flowing messages of personal and political transformation are as relevant as when she started out some decades ago.
 
