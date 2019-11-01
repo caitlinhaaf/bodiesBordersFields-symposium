@@ -1,7 +1,7 @@
 ---
 tagType: contributor
-firstName: Keyon
-lastName: Gaskin
+firstName: keyon
+lastName: gaskin
 role: 'Performer, Speaker'
 headshot: /img/keyon-gaskin.jpg
 ---
