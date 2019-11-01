@@ -6,9 +6,9 @@ days:
   - date: 2019-11-23T03:10:19.551Z
     dayWeek: Friday
     scheduleItems:
-      - description: A live performance by Keyon Gaskin followed by a short talk.
+      - description: A live performance by keyon gaskin followed by a short talk.
         endTime: 'November 22, 2019 7:00 PM'
-        itemName: Opening Performance by Keyon Gaskin
+        itemName: Opening Performance by keyon gaskin
         location: The Theatre Centre
         speakers: ''
         startTime: 'November 22, 2019 6:00 PM'
