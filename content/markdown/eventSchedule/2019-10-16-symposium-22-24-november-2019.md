@@ -39,7 +39,7 @@ days:
         link:
           - linkText: Sign Up Here
             linkUrl: 'https://www.eventbrite.ca/e/78127921717'
-        location: '[location TBD]'
+        location: The Gladstone Hotel
         moderator: ''
         speakers: Jessica Lynne
         startTime: 'November 23, 2019 11:00 AM'
