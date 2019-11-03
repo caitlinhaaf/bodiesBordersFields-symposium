@@ -58,14 +58,14 @@ days:
       - description: >-
           A workshop about performance and sound. Sign up required. Please sign
           up here: bit.ly/33R17Y0
-        endTime: 'November 23, 2019 3:30 PM'
+        endTime: 'November 23, 2019 4:30 PM'
         itemName: 'Workshop: aesthetics of black performance and sound'
         link:
           - linkText: Sign Up Here
             linkUrl: 'http://www.bit.ly/33R17Y0'
-        location: '[location TBD]'
+        location: The Theatre Centre
         speakers: Steffani Jemison
-        startTime: 'November 23, 2019 2:00 PM'
+        startTime: 'November 23, 2019 3:00 PM'
       - description: >-
           A conversation about blackness and visibility and living as visible
           and invisible in hypersurveilled society.
