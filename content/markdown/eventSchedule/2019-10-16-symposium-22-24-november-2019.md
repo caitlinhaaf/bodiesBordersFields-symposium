@@ -103,10 +103,16 @@ days:
         speakers: 'keyon gaskin, M. NourbeSe Philip, Tina Post'
         startTime: 'November 24, 2019 12:30 PM'
       - description: >-
-          A participatory workshop that uses the body, and interaction with
-          others to centre and ground us in our bodies. Sign up required. 
+          How, through movement, can we actualize our fundamental desire for
+          harmony?   How might a practice of placing our mind in its body
+          constitute an act of love?   How might framing our embodied
+          experiences of rhythm and shape as medicinal be a source of true
+          power?   Can we use the intelligence of our arms, fingers, breath and
+          voices to charge and sculpt the spaces before and between us? 
         endTime: 'November 24, 2019 4:00 PM'
-        itemName: Workshop with Aisha Sasha John
+        itemName: >-
+          Workshop: I am motivated by the desire to experience a sense of
+          justice 
         link:
           - linkText: Sign Up Here
             linkUrl: 'https://www.eventbrite.ca/e/78128134353'
