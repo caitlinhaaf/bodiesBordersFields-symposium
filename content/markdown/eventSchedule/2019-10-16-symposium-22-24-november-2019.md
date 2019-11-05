@@ -101,9 +101,11 @@ days:
   - date: 2019-11-24T06:17:41.981Z
     dayWeek: Sunday
     scheduleItems:
-      - description: ''
+      - description: >-
+          A meal and performance by mouthfeel (S*an D. Henry Smith and Imani
+          Elizabeth Jackson).
         endTime: ''
-        itemName: Brunch with Sean D. Henry-Smith and Imani Elizabeth Jackson
+        itemName: 'Performance Brunch: sun/sea'
         link:
           - linkText: Sign Up Here
             linkUrl: 'https://www.eventbrite.ca/e/78128048095'
