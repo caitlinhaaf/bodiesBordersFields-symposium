@@ -127,7 +127,7 @@ days:
         endTime: 'November 24, 2019 4:00 PM'
         itemName: >-
           Workshop: I am motivated by the desire to experience a sense of
-          justice 
+          justice
         link:
           - linkText: Sign Up Here
             linkUrl: 'https://www.eventbrite.ca/e/78128134353'
