@@ -32,8 +32,23 @@ days:
     dayWeek: Saturday
     scheduleItems:
       - description: >-
-          A writing workshop for thinking and writing about black creative
-          histories, feminist epistemologies and the arts. Sign up required.
+          What tasks do we assign to the work of (art) criticism? What exactly
+          does it hold? What does it mean to respond to continuums and lineages,
+          chart paths of revision and expansion, and take up archival care and
+          recovery as frameworks, if at all?  These questions are not new or
+          contemporary. They exist inside traditions of writing put forth and
+          shaped by Black critics in response to landscapes of cultural
+          production for decades and embodied in publications such as Small Axe
+          or The Black Scholar and in the varied writings of individuals such as
+          Sylvia Wynter, bell hooks, M. NourbeSe Phillip, or Margo Jefferson.  
+          For this workshop, we will write a response that takes up a
+          proposition/argument/manifesto previously put forth by a Black critic.
+          This could be one of the many whose thinking undergirds the symposium
+          itself. It could be another for whom the participant finds
+          captivating, frustrating, or is curious about. This task is connected
+          to the questions posed above just as it is connected to the terms on
+          which Black folks create the languages and frames necessary for our
+          expression and survival. 
         endTime: 'November 23, 2019 12:30 PM'
         itemName: 'Workshop: Writing'
         link:
