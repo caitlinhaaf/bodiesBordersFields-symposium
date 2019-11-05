@@ -25,14 +25,12 @@ Register [here](https://www.eventbrite.ca/e/78127921717)
 Saturday November 23 | 2:00PM
 Register [here](https://www.eventbrite.ca/e/78127969861)
 
-**BRUNCH with Sean D. Henry-Smith and Imani Elizabeth Jackson**
+**Performance Brunch: sun/sea with Sean D. Henry-Smith and Imani Elizabeth Jackson**
 Sunday November 24 | 11:00AM
 Register [here](https://www.eventbrite.ca/e/78128048095)
 
-**WORKSHOP with Aisha Sasha John**
+**I am motivated by the desire to experience a sense of justice with Aisha Sasha John**
 Sunday November 24 | 4:00PM
 Register [here](https://www.eventbrite.ca/e/78128134353)
-
-
 
 Bodies Borders and Fields design by Sameer Farooq.
