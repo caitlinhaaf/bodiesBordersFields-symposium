@@ -21,9 +21,9 @@ class Layout extends React.Component {
         >        
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()} Trinity Square Video, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            © {new Date().getFullYear()} Trinity Square Video, Built with Gatsby
+            {/* {` `} */}
+            {/* <a href="https://www.gatsbyjs.org">Gatsby</a> */}
           </footer>
         </div>
       </>
