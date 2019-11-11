@@ -37,23 +37,27 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
           </header>
-          <img style={{maxWidth: `20rem`, margin: `0 auto`}} src={post.frontmatter.featureImg} alt="blog feature"/>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
 
-          <h2>Resources</h2>
-          <ul className="noListStyle">
-          {
-            post.frontmatter.resourceFiles.map((resource, i) => (
-              // <li className={componentStyles.link}>
-              <li>
-                <a key={i} target="_blank" rel="noopener noreferrer" href={resource.file}>
-                  {resource.name}
-                </a>
-              </li>
-            ))
-          }
-          </ul>
+          <div className="threeCol" style={{marginBottom: `2rem`}}>
+            <img src={post.frontmatter.featureImg} alt="blog feature"/>
 
+            <div className="colspanTwo">
+              <section dangerouslySetInnerHTML={{ __html: post.html }} />
+              <h2>Resources</h2>
+              <ul className="noListStyle">
+              {
+                post.frontmatter.resourceFiles.map((resource, i) => (
+                  <li>
+                    <a key={i} target="_blank" rel="noopener noreferrer" href={resource.file}>
+                      {resource.name}
+                    </a>
+                  </li>
+                ))
+              }
+              </ul>
+            </div>
+          </div>
+          
           <hr
             style={{
               marginBottom: rhythm(1),

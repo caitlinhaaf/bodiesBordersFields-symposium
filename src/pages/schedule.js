@@ -29,13 +29,10 @@ class SchedulePage extends React.Component {
                     {
                         currentSchedule.frontmatter.days.map((day, i) => {
                             let colorClass;
-                            if(i % 3 === 0) colorClass = "green"
-                            else if(i % 2 === 0) colorClass = "blue"
+                            if((i+1)%3 === 0) colorClass = "green"
+                            else if((i+1)%2 === 0) colorClass = "blue"
                             else colorClass = "pink"
-
-                            console.log(`date...`)
-                            console.log(day.date)
-
+                            
                             return(
                                 <Tab key={i}>
                                     <span className={colorClass}>
@@ -55,8 +52,8 @@ class SchedulePage extends React.Component {
                     currentSchedule.frontmatter.days.map((day, i) => {
                         let colorClass
                         let hdrClass = "null";
-                        if(i % 3 === 0) colorClass = "green"
-                        else if(i % 2 === 0) {
+                        if((i+1)%3 === 0) colorClass = "green"
+                        else if((i+1)%2 === 0) {
                             colorClass = "blue" 
                             hdrClass="alt"
                         }

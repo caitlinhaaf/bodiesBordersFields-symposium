@@ -19,12 +19,12 @@ class ResourcesPage extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
-              <div className="twoCol">
+              <div className="threeCol">
 
                 <img style={{maxWidth: `15rem`}} src={node.frontmatter.featureImg} alt="blog post feature"/>
 
-                <div>
-                  <header>
+                <div className="colspanTwo">
+                  <header style={{marginBottom: `1rem`}}>
                   <h3
                     className="alt"
                     style={{
@@ -43,7 +43,7 @@ class ResourcesPage extends React.Component {
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: node.frontmatter.description || node.excerpt,
+                      __html: node.excerpt,
                     }}
                   />
                 </section>
@@ -81,7 +81,7 @@ export const pageQuery = graphql`
       }) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 300)
           fields {
             slug
           }

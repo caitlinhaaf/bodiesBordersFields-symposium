@@ -9,7 +9,7 @@ const EventTable = ({eventItems, colorClass, hdrClass, ...props}) => {
                 {
                     eventItems.map((item, i) => (
                         <tr key={i}>
-                            <td>
+                            <td style={{minWidth: `10rem`}}>
                                 {moment(item.startTime).local().format(`LT`)}
                                 {item.endTime &&
                                     ` to ${moment(item.endTime).local().format(`LT`)}`

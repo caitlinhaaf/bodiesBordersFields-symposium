@@ -18,10 +18,14 @@ class VenuesPage extends React.Component {
         
         {
           venues.map(({node}, i) => (
-            <>
+            <div key={i}>
               <h3 className="alt">{node.frontmatter.eventTitle}</h3>
-              <div className="twoCol" style={{padding: `2rem 0`, borderBottom: `1px solid #CCCCCC`}}>
-                <div style={{"max-width": "200px"}}>
+              <div className="twoCol" 
+                style={{
+                  padding: `2rem 0`, 
+                  // borderBottom: `1px solid #CCCCCC`
+                  }}>
+                <div style={{maxWidth: `20rem`}}>
                    <img src={node.frontmatter.logo} alt={`${node.frontmatter.name} logo`}/>
                 </div>
 
@@ -32,7 +36,7 @@ class VenuesPage extends React.Component {
                 
               </div>
 
-            </>
+            </div>
           ))
         }
       </Layout>

@@ -39,6 +39,7 @@ h3 *, h4 *, h5 *, h6 *{
     }
 }
 
+// FONT COLOR VARIATIONS
 .pink,
 .pink *{
     color: $pink;
@@ -78,7 +79,6 @@ a{
         border: 2px solid $blue;
     }
 }
-
 footer{
     margin-top: 1rem;
     font-size: .8rem;
@@ -88,21 +88,35 @@ footer{
     }
 }
 
+// LAYOUT CLASSES
 .twoCol{
-    display: flex;
-    flex-wrap: wrap;
-
     > *{
-        width: 45%;
+        width: 47.5%;
+    }
+    > *:not(:nth-child(even)){
         margin-right: 5%;
     }
-    > :last-child{
-        margin-right: 0;
+}
+.threeCol{
+    > *{
+        width: 30%;
     }
-
+    > *:not(:last-child){
+        margin-right: 5%;
+    }
+    > .colspanTwo{
+        width: 65%;
+    }
+}
+.twoCol,
+.threeCol{
+    display: flex;
+    flex-wrap: wrap;
     @include md {
         flex-direction: column;
-        > *{
+        align-items: center;
+        > *,
+        *[class^="colspan"]{
             width: 100%;
             margin-bottom: 1.5rem;
             margin-right: 0;
@@ -115,13 +129,13 @@ footer{
     margin-bottom: 0.5rem;
 }
 
+
+
 .logoFade{
     // position: absolute;
     width: 100%;
     height: 60%;
-
     // *{
     //     opacity: 0;
     // }
-
 }

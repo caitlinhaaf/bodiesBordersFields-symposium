@@ -9,15 +9,18 @@ class ContributorsPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const contributors = data.allMarkdownRemark.edges
-
+    const contributors = data.allMarkdownRemark.edges.sort((a, b) => {
+      const keyA = a.node.frontmatter.lastName.toLowerCase();
+      const keyB = b.node.frontmatter.lastName.toLowerCase();
+      if(keyA < keyB) return -1;
+      if(keyA > keyB) return 1;
+      return 0;
+    })
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Contributors" pathname="/contributors"/>
         <h1>Contributors</h1>
-
         <div className="twoCol">
-
           {
               contributors.map(({node}, i) => (
                   <ContributorTile
@@ -30,10 +33,7 @@ class ContributorsPage extends React.Component {
                   />
               ))
           }
-
         </div>
-
-
       </Layout>
     )
   }
@@ -49,10 +49,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {tagType: {eq: "contributor"}}},
-      sort: { fields: [frontmatter___lastName], 
-      order: ASC 
-      }) {
+      filter: {frontmatter: {tagType: {eq: "contributor"}}}) {
       edges {
         node {
           html
