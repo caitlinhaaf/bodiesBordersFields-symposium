@@ -30,8 +30,6 @@ class Homepage extends React.Component {
           </div>
           
         </div>
-
-
         <h2 className="alt" style={{textAlign: "center"}}>
           22 - 24 November, 2019
         </h2>

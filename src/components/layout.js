@@ -6,8 +6,6 @@ import Nav from "./nav"
 class Layout extends React.Component {
   render() {
     const { children } = this.props
-    // const rootPath = `${__PATH_PREFIX__}/`
-
     return (
       <>
         <Nav />

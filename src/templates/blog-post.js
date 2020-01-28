@@ -43,18 +43,25 @@ class BlogPostTemplate extends React.Component {
 
             <div className="colspanTwo">
               <section dangerouslySetInnerHTML={{ __html: post.html }} />
-              <h2>Resources</h2>
-              <ul className="noListStyle">
-              {
-                post.frontmatter.resourceFiles.map((resource, i) => (
-                  <li>
-                    <a key={i} target="_blank" rel="noopener noreferrer" href={resource.file}>
-                      {resource.name}
-                    </a>
-                  </li>
-                ))
+
+              {post.frontmatter.resourceFiles &&
+                <>
+                  <h2>Resources</h2>
+                  <ul className="noListStyle">
+                  {
+                    post.frontmatter.resourceFiles.map((resource, i) => (
+                      <li>
+                        <a key={i} target="_blank" rel="noopener noreferrer" href={resource.file}>
+                          {resource.name}
+                        </a>
+                      </li>
+                    ))
+                  }
+                  </ul>
+                </>
               }
-              </ul>
+                
+
             </div>
           </div>
           
@@ -75,14 +82,14 @@ class BlogPostTemplate extends React.Component {
               padding: 0,
             }}
           >
-            <li>
+            <li style={{maxWidth: `45%`}}>
               {previous && (
                 <Link to={previous.fields.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
-            <li>
+            <li style={{maxWidth: `45%`, textAlign: `right`}}>
               {next && (
                 <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →

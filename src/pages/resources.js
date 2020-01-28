@@ -49,12 +49,7 @@ class ResourcesPage extends React.Component {
                 </section>
                 </div>
 
-
               </div>
-
-             
-
-
             </article>
             )
           })
