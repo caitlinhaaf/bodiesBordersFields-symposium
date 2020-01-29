@@ -1,0 +1,18 @@
+@import '../styles/variables';
+
+.articleImg{
+    float: left;
+    max-height: 50vh;
+    margin-right: 2rem;
+    max-width: 60%;
+
+    @include lg {
+        clear: left;
+        float: none;
+        max-width: 100%;
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

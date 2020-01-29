@@ -21,7 +21,10 @@ class ResourcesPage extends React.Component {
             <article key={node.fields.slug}>
               <div className="threeCol">
 
-                <img style={{maxWidth: `15rem`}} src={node.frontmatter.featureImg} alt="blog post feature"/>
+                <div style={{maxWidth: `15rem`}}>
+                  <img src={node.frontmatter.featureImg} alt="blog post feature"/>
+                </div>
+                
 
                 <div className="colspanTwo">
                   <header style={{marginBottom: `1rem`}}>

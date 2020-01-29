@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import componentStyles from "./blog-post.module.scss"
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -38,12 +40,12 @@ class BlogPostTemplate extends React.Component {
             </p>
           </header>
 
-          <div className="threeCol" style={{marginBottom: `2rem`}}>
-            <img src={post.frontmatter.featureImg} alt="blog feature"/>
+          <div style={{marginBottom: `2rem`}}>
 
-            <div className="colspanTwo">
-              <section dangerouslySetInnerHTML={{ __html: post.html }} />
-
+            <div>
+              <img className={componentStyles.articleImg} src={post.frontmatter.featureImg} alt="blog feature"/>
+              <p dangerouslySetInnerHTML={{ __html: post.html }} />
+              
               {post.frontmatter.resourceFiles &&
                 <>
                   <h2>Resources</h2>
