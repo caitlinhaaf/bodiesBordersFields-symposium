@@ -43,7 +43,10 @@ class BlogPostTemplate extends React.Component {
           <div style={{marginBottom: `2rem`}}>
 
             <div>
-              <img className={componentStyles.articleImg} src={post.frontmatter.featureImg} alt="blog feature"/>
+              <img 
+                className={componentStyles.articleImg} 
+                src={post.frontmatter.featureImg} 
+                alt={post.frontmatter.featureImgAlt ? post.frontmatter.featureImgAlt : 'blog post feature image'}/>
               <p dangerouslySetInnerHTML={{ __html: post.html }} />
               
               {post.frontmatter.resourceFiles &&
@@ -124,6 +127,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         featureImg
+        featureImgAlt
         resourceFiles{
           name
           file

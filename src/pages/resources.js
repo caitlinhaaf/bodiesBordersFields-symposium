@@ -19,14 +19,15 @@ class ResourcesPage extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
-              <div className="threeCol">
+              <div className="twoCol">
 
-                <div style={{maxWidth: `15rem`}}>
-                  <img src={node.frontmatter.featureImg} alt="blog post feature"/>
+                <div>
+                  <img 
+                    src={node.frontmatter.featureImg} 
+                    alt={node.frontmatter.featureImgAlt ? node.frontmatter.featureImgAlt : 'blog post feature image'}/>
                 </div>
                 
-
-                <div className="colspanTwo">
+                <div>
                   <header style={{marginBottom: `1rem`}}>
                   <h3
                     className="alt"
@@ -88,6 +89,7 @@ export const pageQuery = graphql`
             title
             description
             featureImg
+            featureImgAlt
           }
         }
       }
