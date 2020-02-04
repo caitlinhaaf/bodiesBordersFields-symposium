@@ -14,11 +14,15 @@ featureImgAlt: >-
 ---
 Saturday, 23 November, 2019
 
-A conversation about blackness and visibility and living as visible and invisible in hypersurveilled society.
-
 Speaker(s): Che Gossett (virtually), Charmaine Nelson, Joshua Chambers Letson
 
+Moderated by Yaniya Lee
+
 Watch Here: https://vimeo.com/388279759
+
+\--
+
+A discussion on the politics of Black Trans life and subjectivity within the arc of black liberatory narratives, the formation of visual, heterogeneous identities of enslaved Africans and Creoles in Canada as the development of blackness and artist Adrian Piper’s use of the logic of the visual and race as expressions of white supremacy. 
 
 \--
 
