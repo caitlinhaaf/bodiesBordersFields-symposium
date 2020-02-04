@@ -12,11 +12,13 @@ featureImgAlt: >-
 ---
 Sunday, 24 November, 2019
 
-In closing a gathering to discuss responses and outcomes of the weekend's events, presentations and performances.
-
 Speakers: kandis Williams, Deanna Bowen, Christina Battle, Keyon gaskin, M. NourbeSe Philip, S*an D. Henry Smith
 
 Watch Here: https://vimeo.com/388574359
+
+\--
+
+Speakers from the performance and gesture and formal aesthetic panels return for a final Q&A and wrap up discussion.
 
 \--
 
