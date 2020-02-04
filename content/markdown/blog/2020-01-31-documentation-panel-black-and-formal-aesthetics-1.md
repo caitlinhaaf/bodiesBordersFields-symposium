@@ -12,11 +12,13 @@ featureImgAlt: >-
 ---
 Sunday, 24 November, 2019
 
-A conversation about representation and artistic forms from ancient greece to contemporary cinema.
-
 Speaker(s): Kandis Williams, Deanna Bowen, Christina Battle
 
 Watch Here: https://vimeo.com/388354353
+
+\--
+
+In the final panel of the Bodies Borders Fields symposium, Battle, Bowen and Williams address the formal strategies in their work in relation to the visibility and surveillance of black bodies in online documentation, broadcast media, national archives, art historical narratives, art and educational institutions.
 
 \--
 
