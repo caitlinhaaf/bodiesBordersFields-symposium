@@ -12,7 +12,9 @@ featureImgAlt: >-
 ---
 Sunday, 24 November, 2019
 
-A meal and performance by mouthfeel (S*an D. Henry Smith and Imani Elizabeth Jackson).
+A meal and performance by mouthfeel (S*an D. Henry Smith and Imani Elizabeth Jackson). 
+
+Documentation of the artists' culinary and poetic performance considering the colonial legacy of the sea as site of sustenance, genocide and mourning.
 
 Watch Here: https://vimeo.com/388295496
 
