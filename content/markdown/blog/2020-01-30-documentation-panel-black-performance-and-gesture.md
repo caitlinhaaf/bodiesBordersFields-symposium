@@ -13,11 +13,13 @@ featureImgAlt: >-
 ---
 Sunday, 24 November, 2019
 
-A panel and discussion from performance theorists and practitioners about blackness and performance and gesture.
-
 Speaker(s): keyon gaskin, M. NourbeSe Philip, Tina Post
 
 Watch Here: https://vimeo.com/388346608
+
+\--
+
+Considerations of the entanglement of black bodies and blackness as sites for Eurocentric imaginaries of domination and delimiting, and how this is undermined by self-reification and spectacularization and making cuts in space and time.
 
 \--
 
