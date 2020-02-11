@@ -10,7 +10,9 @@ featureImgAlt: Portraits of Françoise Vergès and Olivier Marboeuf
 ---
 September 28, 2019, 2:00pm
 
-Or Gallery, Vancouver, BC
+Or Gallery, Vancouver, BC. 
+
+Supported by **Consulate General of France in Vancouver**
 
 (note: audio only)
 
